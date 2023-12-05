@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?aid style="50" type="snippet" readerVersion="6.0" featureSet="513" product="8.0(370)" ?>
+<?aid SnippetType="InCopyInterchange"?>
+<Document DOMVersion="8.0" Self="pandoc_doc">
+    <RootCharacterStyleGroup Self="pandoc_character_styles">
+      <CharacterStyle Self="$ID/NormalCharacterStyle" Name="Default" />
+       
+    </RootCharacterStyleGroup>
+    <RootParagraphStyleGroup Self="pandoc_paragraph_styles">
+      <ParagraphStyle Self="$ID/NormalParagraphStyle" Name="$ID/NormalParagraphStyle"
+          SpaceBefore="6" SpaceAfter="6"> <!-- paragraph spacing -->
+        <Properties>
+          <TabList type="list">
+            <ListItem type="record">
+              <Alignment type="enumeration">LeftAlign</Alignment>
+              <AlignmentCharacter type="string">.</AlignmentCharacter>
+              <Leader type="string"></Leader>
+              <Position type="unit">10</Position> <!-- first tab stop -->
+            </ListItem>
+          </TabList>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Header1" Name="Header1" LeftIndent="0" PointSize="36">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/NumList &gt; Paragraph" Name="NumList &gt; Paragraph" NumberingExpression="^#.^t" NumberingLevel="1" BulletsAndNumberingListType="NumberedList" LeftIndent="0">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/NumList &gt; first &gt; Paragraph" Name="NumList &gt; first &gt; Paragraph" NumberingExpression="^#.^t" NumberingLevel="1" BulletsAndNumberingListType="NumberedList" LeftIndent="0">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle> 
+    </RootParagraphStyleGroup>
+    <RootTableStyleGroup Self="pandoc_table_styles">
+      <TableStyle Self="TableStyle/Table" Name="Table" />
+    </RootTableStyleGroup>
+    <RootCellStyleGroup Self="pandoc_cell_styles">
+      <CellStyle Self="CellStyle/Cell" AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Name="Cell" />
+    </RootCellStyleGroup>
+  <Story Self="pandoc_story"
+      TrackChanges="false"
+      StoryTitle=""
+      AppliedTOCStyle="n"
+      AppliedNamedGrid="n" >
+    <StoryPreference OpticalMarginAlignment="true" OpticalMarginSize="12" />
+
+<!-- body needs to be non-indented, otherwise code blocks are indented too far -->
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header1">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>10 Ways to Resist Data Colonialism</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; first &gt; Paragraph" NumberingContinue="false">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Identify the ways in which datafication is operating in your daily life.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Embrace digital communality and data stewardship (common good).</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Prevent and diminish varying forms of structural oppression that gets embedded in data and digital architectures, which includes the duty to demand reparations from data harms.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Organize your community and support communities most affected by data colonialism while enhancing your data protection to the extent that you can.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Support strong legislation and policy frameworks to promote data justice and limit platform abuse and market concentration, especially in the “Global South.”</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Promote alternative forms of data governance. Communities can develop data models, but also countries.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Promote a permacultural approach to data and technologies (promote policies that take responsibility for the environmental impact of the digital economy.).</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Develop other tools and models of knowing/doing data through alternative values for data justice.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Fight for justice for the workers whose labor is exploited within the data economy.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Add your own actions!</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+
+  </Story>
+  
+</Document>

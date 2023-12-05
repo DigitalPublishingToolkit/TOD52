@@ -1,0 +1,3197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?aid style="50" type="snippet" readerVersion="6.0" featureSet="513" product="8.0(370)" ?>
+<?aid SnippetType="InCopyInterchange"?>
+<Document DOMVersion="8.0" Self="pandoc_doc">
+    <RootCharacterStyleGroup Self="pandoc_character_styles">
+      <CharacterStyle Self="$ID/NormalCharacterStyle" Name="Default" />
+      <CharacterStyle Self="CharacterStyle/Italic" Name="Italic" FontStyle="Italic">
+        <Properties>
+          <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
+        </Properties>
+      </CharacterStyle>
+      <CharacterStyle Self="CharacterStyle/Link" Name="Link">
+        <Properties>
+          <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
+        </Properties>
+      </CharacterStyle> 
+    </RootCharacterStyleGroup>
+    <RootParagraphStyleGroup Self="pandoc_paragraph_styles">
+      <ParagraphStyle Self="$ID/NormalParagraphStyle" Name="$ID/NormalParagraphStyle"
+          SpaceBefore="6" SpaceAfter="6"> <!-- paragraph spacing -->
+        <Properties>
+          <TabList type="list">
+            <ListItem type="record">
+              <Alignment type="enumeration">LeftAlign</Alignment>
+              <AlignmentCharacter type="string">.</AlignmentCharacter>
+              <Leader type="string"></Leader>
+              <Position type="unit">10</Position> <!-- first tab stop -->
+            </ListItem>
+          </TabList>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Header1" Name="Header1" LeftIndent="0" PointSize="36">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Header2" Name="Header2" LeftIndent="0" PointSize="30">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Header4" Name="Header4" LeftIndent="0" PointSize="18">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Paragraph" Name="Paragraph" LeftIndent="0">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle> 
+    </RootParagraphStyleGroup>
+    <RootTableStyleGroup Self="pandoc_table_styles">
+      <TableStyle Self="TableStyle/Table" Name="Table" />
+    </RootTableStyleGroup>
+    <RootCellStyleGroup Self="pandoc_cell_styles">
+      <CellStyle Self="CellStyle/Cell" AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Name="Cell" />
+    </RootCellStyleGroup>
+  <Story Self="pandoc_story"
+      TrackChanges="false"
+      StoryTitle=""
+      AppliedTOCStyle="n"
+      AppliedNamedGrid="n" >
+    <StoryPreference OpticalMarginAlignment="true" OpticalMarginSize="12" />
+
+<!-- body needs to be non-indented, otherwise code blocks are indented too far -->
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header1">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>REFERENCES</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Introduction</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Couldry, Nick and Mejias, Ulises Ali. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The Costs of Connection: How Data is Colonizing Everyday Life and Appropriating it for Capitalism,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Stanford University Press, 2019.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Mejias, Ulises Ali and Couldry, Nick. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Data Grab: the New Colonialism and how to Resist It,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Penguin and W. H. Allen &amp; Company, 2024 forthcoming.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Ricaurte, Paola. ‘Data epistemologies, The Coloniality of Power, and Resistance’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Television and New Media,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 20.4 (2019): 350-365.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Tierra Común. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Interventions for data decolonization.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> https://www.tierracomun.net/en/home/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Framework for Resistance</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Chapter 1</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Ávila-Pinto, Renata. ‘Digital sovereignty or digital colonialism?’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Sur – International Journal on Human Rights</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 15.27 (2018): 15–27.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Bauerlein, Mark. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The digital divide: Arguments for and against Facebook, Google, texting, and the age of social networking</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, New York: Penguin, 2011.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Castells, Manuel y Himanen, Pekka (eds.). </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Reconceptualización del desarrollo en la era global de la información</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Fondo de Cultura Económica, 2016.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Couldry, Nick and Mejias, Ulises Ali. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The Costs of Connection: How Data is Colonizing Human Life and Appropriating it for Capitalism,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Stanford University Press, 2019.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Cusicanqui, Silvia Rivera. ‘Ch'ixinakax utxiwa: A reflection on the practices and discourses of decolonization’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>South Atlantic Quarterly</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 111.1 (2012): 95–109.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Elder, Laurent; Samarajiva, Rohan; Gillwald, Alison; and Galperin, Hernán. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Information lives of the poor : fighting poverty with technology,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Canada: International Development Research Center, 2013.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Feenberg, Andrew. ‘Toward a critical theory of the Internet’, in Andrew Feenberg and Norm Friesen (eds.), </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>(Re)Inventing the internet: Critical case studies,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Boston: Sense Publishers, 2012.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Grosfoguel, Ramón. ‘Transmodernity, border thinking, and global coloniality. Decolonizing political economy and postcolonial studies’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Revista Crítica de Ciências Sociais</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 80.4 (2008).</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Lugones, María. ‘Heterosexualism and the Colonial/Modern Gender System’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Hypatia</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 22.1 (2007): 186–209.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Mayoral-Baños, Alejandro. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Tech Anishinaabe Medicine Wheel: Decolonial Design Principles within Digital Technologies through the Development of the Indigenous Friends Platform,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> unpublished PhD diss., York University, Ontario, Canada, 2021. https://yorkspace.library.yorku.ca/xmlui/handle/10315/38793.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Mignolo, Walter. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The darker side of Western modernity: Global futures, decolonial options</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Durham, NC: Duke University Press, 2011.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Miles, Tom. ‘U.N. investigators cite Facebook role in Myanmar crisis’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Reuters</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, 12 March 2018, https://www.reuters.com/article/us-myanmar-rohingya-facebook-idUSKCN1GO2PN</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Morozov, Evgeny. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The net delusion: The dark side of Internet freedom,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> New York: PublicAffairs, 2011.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Mosco, Vincent. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Becoming digital: Toward a post-Internet society</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Bingley, UK: Emerald Group Publishing, 2017.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Mumford, Densua. ‘Data colonialism: compelling and useful, but whither epistemes?’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Information, Communication &amp; Society</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 25.10 (2021): 1511–1516.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Nakamura, Lisa. ‘Race and identity in digital media’, in James Curran (ed.), </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Media and Society</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, London: Bloomsbury Publishing, 2010, pp. 336–347.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Nakamura, Lisa and Chow-White, Peter (eds.). ‘Introduction—Race and digital technology: Code, the color line, and the information society’, in </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Race after the Internet</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Routledge, 2012, pp. 1–18.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Quijano, Aníbal and Ennis, Michael. ‘Coloniality of power, Eurocentrism, and Latin America’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Nepantla: Views from South</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 1.3 (2000): 533–580.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Reed, T.V. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Digitized lives: Culture, power, and social change in the Internet era,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Routledge, 2019</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Sadowski, Jathan. ‘When data is capital: datafication, accumulation and extraction’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Big Data &amp; Society</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 6.1 (2019)</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> doi:10.1177/2053951718820549.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Salazar, Juan Francisco. ‘Activismo indígena en América Latina: estrategias para una construcción cultural de las tecnologías de información y comunicación’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Journal of Iberian and Latin American Research</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 8.2 (2002): 61–80.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Unwin, Tim. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Reclaiming information and communication technologies for development,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Oxford: Oxford University Press, 2017.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Zuboff, Shoshana. ‘Big other: Surveillance Capitalism and the Prospects of an Information Civilization’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Journal of Information Technology 30</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.1 (2015): 75–89. https://doi.org/10.1057/jit.2015.5</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Chapter 2</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Abebe, Rediet; Aruleba, Kehinde; Birhane, Abeba; Kingsley, Sara; Obaido, George; Remy, Sekou. L.; and Sadagopan, Swathi. ‘Narratives and counternarratives on data sharing in Africa’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>FAccT 2021 - Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, (2021): 329–341. https://doi.org/10.1145/3442188.3445897</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Andrews, Kehinde. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The New Age of Empire: How racism and colonialism still rule the world</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, United States: Bold Type Books, 2021.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Benjamin, Ruha. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Race After Technology: Abolitionist tools for the new Jim code</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>. United States: Polity, 2019.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Bhattacharyya, Gargi. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Rethinking Racial Capitalism: Questions of reproduction and survival</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, United Stated: Rowman &amp; Littlefield Publishers, 2018</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Browne, Simone. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Dark Matters: On the surveillance of blackness,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Duke University Press, 2015.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Buolamwini, Joy and Gebru, Timnit. ‘Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Proceedings of Machine Learning Research</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 81 (2018): 77–91.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Chisnall, Mick. ‘Digital slavery, time for abolition?’ </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Policy Studies</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>41.5</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> (2020): 488–506. https://doi.org/10.1080/01442872.2020.1724926.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Christian, Michelle. ‘A Global Critical Race and Racism Framework: Racial Entanglements and Deep and Malleable Whiteness’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Sociology of Race and Ethnicity</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 5.2 (2019): 169–185. https://doi.org/10.1177/2332649218783220</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Couldry, Nick and Mejias, Ulises Ali. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The Costs of Connection: How data is colonizing human life and appropriating it for capitalism</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Stanford University Press, 2019.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Fraser, Nancy. ‘Expropriation and Exploitation in Racialized Capitalism: A Reply to Michael Dawson’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Critical Historical Studies</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 3.1 (2016): 163–178. https://doi.org/10.1086/685814</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Fraser, Nancy. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Race, Empire, Capitalism: Theorizing the Nexus</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, New Delhi: South Asian University, 2018.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Fraser, Nancy. ‘Is Capitalism Necessarily Racist?’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Politics/Letters Quarterly,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 20 May 2019. http://quarterly.politicsslashletters.org/is-capitalism-necessarily-racist/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Gilmore, Ruth Wilson. A</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>bolition Geography: Essays towards liberation</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Verso, 2022.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Grosfoguel, Ramón. ‘Colonial Difference, Geopolitics of Knowledge, and Global Coloniality in the Modern/Colonial Capitalist World-System.’ </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Review (Fernand Braudel Center)</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 25.3 (2002): 203–24. http://www.jstor.org/stable/40241548.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Grosfoguel, Ramón. ‘THE EPISTEMIC DECOLONIAL TURN: Beyond political-economy paradigms’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Cultural Studies</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 21.2 and 21.3 (2007): 211–223. https://doi.org/10.1080/09502380601162514</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Hill Collins, Patricia. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Black Feminist Thought: Knowledge, consciousness, and the politics of empowerment</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Routledge, 2000.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Kalema, Nai Lee. ‘Deconstructing the Global Coded Gaze on Digital Transformation’, in </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>ANTI-RACISM POLICY JOURNAL. A Harvard Kennedy School Student Publication</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, edited by Ian Daniel, Courtney Howard, and Paula D. Walker, 67–74. Harvard Kennedy School, 2023. https://arpj.hkspublications.org/wp-content/uploads/sites/27/2023/06/ARPJ-2nd-Edition-2023-HKS.pdf</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Khan, Mishal. ‘The Indebted Among the “Free”: Producing Indian Labor Through the Layers of Racial Capitalism’, in Destin Jenkins and Justin Leroy (eds.), </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Histories of Racial Capitalism,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Columbia University Press, 2021, pp. 85–110. https://doi.org/10.7312/jenk19074-005</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Limpangog, Cirila P. ‘Matrix of Domination’, in Nancy A. Naples (ed.), </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The Wiley Blackwell Encyclopedia of Gender and Sexuality Studies</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>. John Wiley &amp; Sons, Ltd, 2016, pp. 1–3. https://doi.org/10.1002/9781118663219.wbegss611</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Lumba, Allan E. S. ‘Transpacific Migration, Racial Surplus, and Colonial Settlement’, in Destin Jenkins and Justin Leroy (eds.), </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Histories of Racial Capitalism,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Columbia University Press, 2021, pp. 111–134. https://doi.org/10.7312/jenk19074-006</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>McMillan Cottom, Tressie. ‘Where Platform Capitalism and Racial Capitalism Meet: The Sociology of Race and Racism in the Digital Society’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Sociology of Race and Ethnicity</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 6.4 (2020): 441–449. https://doi.org/10.1177/2332649220949473</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Mbembe, Achille. ‘Necropolitics’, in Stephen Morton and Stephen Bygrave (eds.), </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Foucault in an Age of Terror: Essays on Biopolitics and the Defence of Society</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Palgrave Macmillan UK, 2008, pp. 152–182. https://doi.org/10.1057/9780230584334_9</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Mbembe, Achille. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Out of the Dark Night: Essays on decolonization</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Columbia University Press, 2021.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Melamed, Jodi. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Represent and Destroy: Rationalizing Violence in the New Racial Capitalism</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, University of Minnesota Press, 2011.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Melamed, Jodi. ‘Racial Capitalism’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Critical Ethnic Studies</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, 1.1 (2015): 76–85. https://doi.org/10.5749/jcritethnstud.1.1.0076</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Mignolo, Walter. ‘DELINKING: The rhetoric of modernity, the logic of coloniality and the grammar of de-coloniality’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Cultural Studies</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 21.2 and 21.3 (2007): 449–514. https://doi.org/10.1080/09502380601162647</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Noble, Safiya Umoja. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Algorithms of Oppression: How search engines reinforce racism</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, New York University Press, 2018.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Quijano, Aníbal. ‘Coloniality and modernity/rationality’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Cultural studies</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 21.2 and 21.3 (2007): 168–178.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Quijano, Aníbal and Ennis, Michael. ‘Coloniality of Power, Eurocentrism, and Latin America’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Nepantla: Views from South</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 1.3 (2000): 533–580.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Omi, Michael and Winant, Howard. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Racial Formation in the United States: From the 1960s to the 1980s,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Routledge &amp; Kegan Paul, 1986.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Pele, Antonio. ‘Data Necropolitics V2</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>SocArXiv,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 2021. doi:10.31235/osf.io/pvs2z.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Robinson, Cedric James. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Black Marxism: The making of the Black Radical Tradition</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, University of North Carolina Press, 2000.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Williams, Eric Eustace. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Capitalism and Slavery</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Penguin Classics, 2022.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Zuboff, Shoshana. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The Age of Surveillance Capitalism: The fight for the future at the new frontier of power</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, PublicAffairs, 2019.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Chapter 3</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Arendt, Hannah. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The human condition</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, University of Chicago Press, 1958 (2013).</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Arendt, Hannah. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The origins of totalitarianism</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Houghton Mifflin Harcourt, 1973.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Bacon, Francis. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Francis Bacon: the new organon</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Cambridge University Press, 1620 (2000).</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Barocas, Solon and Andrew D. Selbst. ‘Big Data’s Disparate Impact’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>California Law Review</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 104.3 (2016): 671–732. </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-1" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>http://www.jstor.org/stable/24758720</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Benjamin, Ruha. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Race After Technology: Abolitionist tools for the new Jim code</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, United States: Polity, 2019.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Bowker, Geoffrey C. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Memory practices in the sciences</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, MIT Press, 2005.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Chakrabarty, Dipesh. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Provincializing Europe</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Princeton University Press, 2009.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Chun, Allen. (Post) Colonial governance in Hong Kong and Macau: a tale of two cities and regimes, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Postcolonial studies</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 22.4 (2019): 413–427.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Chun, Wendy Hui Kyong. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Discriminating Data. Correlation, Neighborhoods, and the New Politics of Recognition</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, MIT Press, 2021.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Couldry, Nick and Mejias, Ulises Ali. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The Costs of Connection: How Data is Colonising Everyday Life and Appropriating it for Capitalism,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Stanford University Press, 2019.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Daniels, Jessie. ‘“My Brain Database Doesn’t See Skin Color” Color-Blind Racism in the Technology Industry and in Theorizing the Web’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>American Behavioral Scientist</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 59.11 (2015): 1377–1393.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Daston, Lorraine and Galison, Peter. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Objectivity</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Princeton University Press, 2010.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>D'ignazio, Catherine and Klein, Lauren F. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Data feminism</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>. MIT Press, 2020.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Edwards, Paul N. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The Closed World: Computers and the Politics of Dis- course in Cold War America</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, MIT Press, 1997.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Edwards, Paul N., Bowker, Geoffrey C., Jackson, Steven J., and Williams, Robin. ‘Introduction: an agenda for infrastructure studies’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Journal of the association for information systems</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 10.5 (2009). doi:10.17705/1jais.00200.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Escobar, Arturo. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Designs for the pluriverse: Radical interdependence, autonomy, and the making of worlds,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Duke University Press, 2018.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Eubanks, Virginia. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Automating inequality: How high-tech tools profile, police, and punish the poor</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, St. Martin's Press, 2018.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Finn, Ed. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>What algorithms want,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> MIT Press, 2018.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Foucault, Michel. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The order of things</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Routledge, 1970 (2005).</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Gandy, Oscar H. Jr. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The panoptic sort: A political economy of personal information</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Oxford University Press, 2021.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Hildebrandt, Mireille. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The issue of bias: the framing powers of ML. Machines we trust. Perspective on dependable AI</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, MIT Press, 2021.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content> </Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Hui, Yuk. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The question concerning technology in China: An essay in cosmotechnics: 3</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, MIT Press, 2019.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Moore, Jason W. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Capitalism in the Web of Life: Ecology and the Accumulation of Capital</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Verso Books, 2015.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Keller, Evelyn Fox. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Making sense of life: Explaining biological development with models, metaphors, and machines</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Harvard University Press, 2002.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Koyré, Alexandre. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>From the Closed World to the Infinite Universe</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Baltimore: Johns Hopkins Press, 1957.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Koyré, Alexandre. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Metaphysics &amp; Measurement: Essays in Scientific Revolution,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Harvard University Press, 1968.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Licklider, Joseph Carl Robnett. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Libraries of the Future</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, MIT Press, 1965.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>O'Neil, Cathy. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Weapons of math destruction: How big data increases inequality and threatens democracy</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Crown Pub, 2016.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Osoba, Osonde A.; Boudreaux, Benjamin; Saunders, Jessica M.; Irwin, J. Luke; Mueller, Pam A.; and Cherney, Samantha. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Algorithmic Equity: A Framework for Social Applications</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Santa Monica: RAND Corporation, 2019.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Pasquale, Frank. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The black box society: The secret algorithms that control money and information</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Harvard University Press, 2015.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Pasquale, Frank. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>New laws of robotics: defending human expertise in the age of AI</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Belknap Press, 2020.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Preciado, Paul B. ‘Dissident Interfaces: Shu Lea Cheang’s 3x3x9 and the Digital Avant-Garde’, in Preciado, Paul B. (ed.), </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>3x3x6. Shu Lea Cheang</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Taiwan: Taipei Fine Arts Museum, 2019, pp. 69–90.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Quijano, Aníbal. ‘Coloniality and modernity/rationality’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Cultural studies</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 21.2 and 21.3 (2007): 168–178.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Rangarajan, Sinduja. ‘Here’s the Clearest Picture of Silicon Valley’s Diversity yet: It’s Bad. But Some Companies Are Doing Less Bad</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Reveal</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, 25 June 2018. https://www.revealnews.org/article/heres-the-clearest-picture-of-silicon-valleys-diversity-yet/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Rosenblueth, Arturo and Wiener, Norbert. ‘The Role of Models in Science’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Philosophy of Science</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 12.4 (1945): 316–21. http://www.jstor.org/stable/184253.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Rouvroy, Antoinette and Berns, Thomas. ‘Gouvernementalité algorithmique et perspectives d’émancipation. Le disparate comme condition d’individuation par la relation’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Réseaux</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 177.1 (2013): 163–196.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Stone, Deborah A. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Counting: How we use numbers to decide what matters,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Liveright Publishing, 2020.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Weizenbaum, Joseph. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Computer Power and Human Reason: From Judgment to Calculation</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, New York: W. H. Freeman and Company, 1976.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>West, Sarah Myers, Whittaker, Meredith, and Crawford, Kate. ‘Discriminating Systems: Gender, Race and Power in AI’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>AI Now Institute</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, 1 April 2019. https://ainowinstitute.org/discriminatingsystems.html</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Wiener, Norbert. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Cybernetics: or Control and Communication in the Animal and the Machine</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, The MIT Press, 1948 (1961).</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Chapter 4</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Aizeki, Mizue; Boyce, Geoffrey; Miller, Todd; Nevins, Joseph; and Ticktin, Miriam. ‘Smart Borders or a Humane World? - Immigrant Defense Project</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>’, Immigrant Defense Project’s Surveillance, Tech &amp; Immigration Policing Project, and the Transnational Institute</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> (2021). https://www.immigrantdefenseproject.org/smart-borders-or-a-humane-world/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Clarke, Killian. ‘When Do the Dispossessed Protest? Informal Leadership and Mobilization in Syrian Refugee Camps’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Perspectives on Politics</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 16.3 (2018): 617–33. doi:10.1017/S1537592718001020.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Dressel, Julia and Farid, Hany. ‘The accuracy, fairness, and limits of predicting recidivism’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Science advances</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 4.1 eaao5580 (2018). https://doi.org/10.1126/sciadv.aao5580</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Fraser, Alistair. ‘Land Grab/Data Grab: Precision agriculture and its new horizons’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The Journal of Peasant Studies</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 46.5 (2019): 893–912.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Kraus, Lalita; Neves, Fabiola de Cássia Freitas; and Costa, Aldenilson dos Santos Vitorino. ‘Unequal smart spaces: The Command and Control Centre of Rio de Janeiro’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Espaço e Economia. Revista Brasileira de Geografia Econômica</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 23 (2022). https://doi.org/10.4000/espacoeconomia.21619</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Magalhães, João Carlos and Couldry, Nick. ‘Giving by Taking Away: Big Tech, Data Colonialism, and the Reconfiguration of Social Good’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>International Journal of Communication</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 15 (2021).</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Mejias, Ulises Ali and Couldry, Nick. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Data Grab: the New Colonialism and how to Resist It,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Penguin and W. H. Allen &amp; Company, 2024 forthcoming.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Navdanya International. ‘Gates Ag One: The Recolonisation Of Agriculture’, 16 November 2020. https://navdanyainternational.org/publications/gates-ag-one-the-recolonisation-of-agriculture/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Needleman, Sarah E. and Copeland, Rob. ‘Google’s “Project Nightingale” Triggers Federal Inquiry’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Wall Street Journal,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 12 November 2019. https://www.wsj.com/articles/behind-googles-project-nightingale-a-health-data-gold-mine-of-50-million-patients-11573571867?reflink=desktopwebshare_permalink</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Perry, Tekla S. ‘Cops Tap Smart Streetlights Sparking Controversy and Legislation’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>IEEE Spectrum,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 8 August 2020. </Content>
+  </CharacterStyleRange>
+  <HyperlinkTextSource Self="htss-2" Name="" Hidden="false">
+    <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Link">
+      <Content>https://spectrum.ieee.org/cops-smart-street-lights</Content>
+    </CharacterStyleRange>
+  </HyperlinkTextSource>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Shah, Sakhi and Kumar, Ranjitha. ‘The Digital Ecosystem Opportunity for Indian Agriculture: Making the Right Choice’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>IT for Change</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, 24 August 2022. https://itforchange.net/node/2196</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Taylor, Linnet. ‘Why Today’s Aadhaar Judgement Matters for Data Justice’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Global Data Justice</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, 26 September 2018. https://globaldatajustice.org/gdj/1859/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Xavier, Maria Rita Pereira; Felizardo, Ana Paula Ferreira; and Alves, Fábio Wellington Ataíde. ‘Smart Prisoners: Uses of Electronic Monitoring in Brazilian Prisons during the COVID-19 Pandemic’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Surveillance &amp; Society</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 19.2 (2021): 216–227. https://doi.org/10.24908/ss.v19i2.14303</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Chapter 5</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Bailey, Moya. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Misogynoir Transformed. Black Women’s Digital Resistance</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, NYU Press, 2021.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Djordjevic, Nebojsa. ‘Decolonization of the third gender in the contemporary Indonesia’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Sociologija</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 64.3 (2022): 359–377. doi:10.2298/SOC2203359D</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Fernandes, Estevão Rafael and Arisi, Barbara M. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Gay Indians in Brazil: Untold Stories of the Colonization of Indigenous Sexualities,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Springer Cham, 2017.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Eubanks, Virginia. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Automating inequality: How high-tech tools profile, police, and punish the poor</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, St. Martin's Press, 2018.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Fanon, Frantz. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The wretched of the earth</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, New York: Grove Press, 1968.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Hill Collins, Patricia. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Black Feminist Thought: Knowledge, Consciousness, and the Politics of Empowerment</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Routledge, 2000.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Krenak, Ailton. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Futuro Ancestral</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Companhia das Letras, 2022.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Lugones, Maria. ‘The Coloniality of Gender’, in: Wendy Harcourt (ed.), </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The Palgrave Handbook of Gender and Development</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, London: Palgrave Macmillan, 2016. https://doi.org/10.1007/978-1-137-38273-3_2</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Oyewùmí, Oyèrónké. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The Invention of Women</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Minneapolis: University of Minnesota Press, 1997.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Peña, Paz and Varon, Joana. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Oppressive A.I.: Feminist Categories to Understand its Political Effects</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, notmy.ai, 2021.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Peña, Paz. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Tecnologías para un planeta en llamas</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Paidós, 2023.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Ricaurte, Paola. ‘Data epistemologies, The Coloniality of Power, and Resistance’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Television and New Media,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 20.4 (2019): 350–365.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Paola Ricaurte. ‘Ethics for the Majority World: AI and the Question of Violence at Scale’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Media, Culture &amp; Society,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 44.4 (2022): 726–45.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Quijano, Aníbal and Ennis, Michael. ‘Coloniality of Power, Eurocentrism, and Latin America’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Nepantla: Views from South</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 1.3 (2000): 533–580.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Rich, Adrienne. ‘Compulsory Heterosexuality and Lesbian Existence’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Signs: Journal of Women in Culture And Society</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 5.4 (1980): 631–660. https://doi.org/10.1086/493756</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Varon, Joana and Ricks, Becca, You are seeing this because you are…, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Coding Rights,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> August 2018. https://chupadados.codingrights.org/en/gendered-targeted-ads-2/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Stories of Resistance</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Story 1</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Civil society (234 organisations and academics and 110 individuals). ‘Open letter: Concerns on EU critical raw materials plans’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>, Friends of the Earth Europe,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 28 September 2020. https://www.foeeurope.org/sites/default/files/resource_use/2020/civil_society_open_letter_-_concerns_on_eu_critical_raw_material_plans.pdf</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Civil society (234 organisations, community platforms and academics). ‘Media Release: We can’t mine our way out of the climate crisis’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The Gaia Foundation,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 28 September 2020. http://gaiafoundation.org/ec-we-cant-mine-our-way-out-of-the-climate-crisis</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Comisión Nacional para el Conocimiento y Uso de la Biodiversidad, ‘¿Qué es la biodiversidad?’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Biodiversidad mexicana,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 31 Julio 2022. https://www.biodiversidad.gob.mx/biodiversidad/que_es.html</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Domínguez, Andrés. ‘Los conflictos futuros de Chiapas por la defensa del territorio’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>, Chiapas Paralelo,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 1 Septiembre 2019</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> https://www.chiapasparalelo.com/noticias/chiapas/2019/09/los-conflictos-futuros-de-chiapas-por-la-defensa-del-territorio/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Instituto Nacional de Estadística y Geografía. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Espacio y datos de México: Acacoyagua.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> https://www.inegi.org.mx/app/mapa/espacioydatos/default.aspx?ag=07001</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Martínez García, Marco Antonio. ‘Minería pone en riesgo a áreas naturales protegidas: Gustavo Castro’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>, Programa de las Américas,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 10 Febrero 2015</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> https://www.americas.org/es/mineria-pone-en-riesgo-a-areas-naturales-protegidas-gustavo-castro/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Minería en tu Vida. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Minerales en el celular.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> https://www.lamineriaentuvida.com.ar/minerales-en-el-celular/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Observatorio de Conflictos Mineros de América Latina. ‘Habitantes del Soconusco, Chiapas, se organizan para detener la minería’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>, Movimiento M4,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 14 Octubre 2016</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> https://www.ocmal.org/habitantes-del-soconusco-chiapas-se-organizan-para-detener-la-mineria/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Otros Mundos A.C. ‘Habitantes del Soconusco, Chiapas, se organizan para detener la minería’, 10 Octubre 2016, video. https://www.youtube.com/watch?v=csoQarSWQCQ</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Outlet Minero. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Titanio, usos y propiedades.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> https://outletminero.org/titanio/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Soberanes, Rodrigo. ‘Comunidades se oponen a 21 proyectos mineros en la Sierra Madre de México’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Mongabay,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 20 Octubre 2017. https://es.mongabay.com/2017/10/no-la-mineria-la-lucha-conservar-la-sierra-madre-mexico/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Story 2</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Story 3</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Barros, Maria Lígia. ‘Câmeras com reconhecimento facial no Recife podem agravar racismo e ameaçar direitos’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>, Brasil de Fato,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 21 Março 2022</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> https://www.brasildefatope.com.br/2022/03/21/cameras-com-reconhecimento-facial-no-recife-podem-agravar-racismo-e-ameacar-direitos</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Browne, Simone. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Dark Matters: On the Surveillance of Blackness</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, Duke University Press, 2015.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Buolamwini, Joy and Gebru, Timnit. ‘Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Proceedings of Machine Learning Research</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 81 (2018): 77–91. Civil society (56 organisations and 419 individuals). ‘Open Letter to Ban the Use of Digital Facial Recognition Technologies in Public Security’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Tire Meu Rosto Da Sua Mira,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 8 March 2022. https://tiremeurostodasuamira.org.br/en/open-letter/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Costanza-Chock, Sasha. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Design Justice: Community-Led Practices to Build the Worlds We Need</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, MIT Press, 2020.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Coding Rights. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Hacking the Patriarchy</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>. https://codingrights.org/en/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Lavits - Rede Latino-Americana de Estudos Sobre Vigilância, Tecnologia e Sociedade. https://lavits.org/en/lavits/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Nemer, David. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Technology of the Oppressed : Inequity and the Digital Mundane in Favelas of Brazil</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, The MIT Press, 2022.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>NINJA. ‘Pela segunda vez, jovem negro inocente vira réu após reconhecimento por foto’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>, Mídia NINJA,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 12 Abril 2023. https://midianinja.org/news/pela-segunda-vez-jovem-negro-inocente-vira-reu-por-causa-de-reconhecimento-por-foto/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Noble, Safiya Umoja. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Algorithms of Oppression: How search engines reinforce racism</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, New York University Press, 2018.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Nunes, Pablo. ‘Exclusivo: levantamento revela que 90,5% dos presos por monitoramento facial no Brasil são negros’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>, Intercept Brasil,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 21 Novembro 2019</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> https://www.intercept.com.br/2019/11/21/presos-monitoramento-facial-brasil-negros/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Petrocilo, Carlos. ‘Defensoria Pública vai à Justiça contra programa de reconhecimento facial em SP’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Fohla de S. Paulo,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 24 Maio 2023. https://www1.folha.uol.com.br/cotidiano/2023/05/defensoria-publica-vai-a-justica-contra-programa-de-reconhecimento-facial-em-sp.shtml</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Pinheiro, Ester. ‘Brazil continues to be the country with the largest number of trans people killed’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Brasil de Fato,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 23 Janeiro 2022</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> https://www.brasildefato.com.br/2022/01/23/brazil-continues-to-be-the-country-with-the-largest-number-of-trans-people-killed</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Ruge, Edmund. ‘Brazil’s Biggest Metro Could Get Facial Recognition Cameras That Reinforce Racist Policing’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>, Vice,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 2 March 2021</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> https://www.vice.com/en/article/5dp8wq/brazils-biggest-metro-could-get-facial-recognition-cameras-that-reinforce-racist-policing%E2%80%AF%E2%80%AF%E2%80%AF</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Santos, Maria Carolina. ‘Os riscos das 108 câmeras de reconhecimento facial que a prefeitura quer espalhar pelo Recife’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>, Marco Zero,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 22 Novembro 2021</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> https://marcozero.org/os-riscos-das-108-cameras-de-reconhecimento-facial-que-a-prefeitura-quer-espalhar-pelo-recife/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Secretaria de Desenvolvimento Econômico, Ciência, Tecnologia e Inovação Institucional. ‘Prefeitura recebe proposta de R$ 100 milhões para a concessão dos novos relógios eletrônicos digitais’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Prefeitura Do Recife</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, 22 Junho 2022. https://www2.recife.pe.gov.br/noticias/22/06/2022/prefeitura-recebe-proposta-de-r-100-milhoes-para-concessao-dos-novos-relogios</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Sem Câmera na Minha Cara. https://www.semcameranaminhacara.meurecife.org.br</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Silva, Mariah Rafaela and Varon, Joanna. ‘Threats in the Usage of Facial Recognition Technologies for Authenticating Transgender Identities’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>, Privacy International,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 30 March 2021. http://privacyinternational.org/news-analysis/4474/threats-usage-facial-recognition-technologies-authenticating-transgender</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Souza, Michel R. O. &amp; Zanatta Rafael A. F. ‘The Problem of Automated Facial Recognition Technologies in Brazil: Social Countermovements and the New Frontiers of Fundamental Rights’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Latin American Human Rights Studies</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 1 (2021). https://revistas.ufg.br/lahrs/article/view/69423</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Tenório, Augusto. ‘Organizações pedem que PCR abandone projeto de relógios com reconhecimento facial’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Universo Online,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 23 Novembro 2021. https://jc.ne10.uol.com.br/blogs/jamildo/2021/11/14354363-organizacoes-pedem-que-pcr-abandone-projeto-de-relogios-com-reconhecimento-facial.html</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Tire Meu Rosto Da Sua Mira. https://tiremeurostodasuamira.org.br/en/home-eng/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Story 4</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Ingold, Tim. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Bringing Things to Life: Creative Entanglements in a World of Materials,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> ESRC National Centre for Research Methods, University of Aberdeen, Scotland, 2010</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> https://eprints.ncrm.ac.uk/id/eprint/1306/1/0510_creative_entanglements.pdf</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Martin, Kari. ‘The Hope of Creation – a Conversation with Timothy Ingold’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>, The Kenan Institute for Ethics,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 26 January 2021. https://kenan.ethics.duke.edu/the-hope-of-creation-a-conversation-with-timothy-ingold/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Ocean Conservancy. https://oceanconservancy.org/trash-free-seas/international-coastal-cleanup/cleanswell/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Popa, Cristina L.; Dontu, Simona I.; Savastru, Dan; and Carstea, Elfrida M. ‘Role of Citizen Scientists in Environmental Plastic Litter Research—A Systematic Review’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Sustainability</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 14.20 (2022): 13265. https://doi.org/10.3390/su142013265</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Rowley, Jennifer. ‘The wisdom hierarchy: Representations of the DIKW hierarchy’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Journal of Information Science</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 33.2 (2007): 163–180</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> https://doi.org/10.1177/0165551506070706</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Rukikaire, Keisha. ‘Comprehensive assessment on marine litter and plastic pollution confirms need for urgent global action’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>, United Nations Environment Program,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 21 October 2021. http://www.unep.org/news-and-stories/press-release/comprehensive-assessment-marine-litter-and-plastic-pollution</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Wright, Gwyn. ‘Microplastics can cross placenta into unborn babies, study shows’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>, The Independent,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 28 December 2022. https://www.independent.co.uk/news/health/microplastics-in-humans-baby-placenta-b2252375.html</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Story 5</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Fairwork. https://fair.work/en/fw/homepage/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Onuoha, Mimi and Nucera, Diana. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>A People’s Guide To AI,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Michigan: Allied Media, 2020.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Platform Cooperativism Consortium. https://platform.coop/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Posada, Julian. ‘Controller of the Universe? A Reading List on Labour and Technology’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>, Mayworks Festival Of Working People &amp; The Arts,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 5 May 2022</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> https://mayworks.ca/2022-festival/2022/readinglist</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Story 6</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Acevedo, Stefanía. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Hacktivism and the question of technique,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> México: Tintable Editorial, 2020.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Anamhoo, Hacklib, Steffff, and Boox. ‘Carta del Grupo de trabajo sobre violencias en el RE’, 10 Enero 2023</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> https://transitional.anarchaserver.org/jirafeau/f.php?h=2btzr20Z&amp;d=1</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Dicidente Radio. ‘La Zona Autónoma Makhnovtchina (ZAM)’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Indy Media,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 3 Diciembre 2010</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> http://mexico.indymedia.org/spip.php?article1783</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Esperilla, Martha and Acevedo, Stefanía. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Hackerspace Rancho Electrónico,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Mayo 2019, video. https://media.libreplanet.org/u/libreplanet/m/hackerspace-rancho-electronico/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Rancho Electrónico. https://ranchoelectronico.org</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Story 7</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>A Safe CU. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Exploring the root causes of gun violence in Champaign-Urbana, both historical and present-day.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> https://asafecu.com/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Brighton, Jack; Perkins, Jana; and Unruh, Sarah. ‘More Investing, Less Arresting: A Public Health Model for Reducing Gun Violence in Detroit’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>White Paper for Spring 2022 Community Data 594 (2022).</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Champaign County Community Coalition. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Bringing People Together For Positive Change.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> https://www.champaigncommunitycoalition.org/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Chan, Anita. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Networking Peripheries: Technological Futures and the Myth of Digital Universalism,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> MIT Press, 2014.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Community Data Clinic. https://communitydata.illinois.edu</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Couldry, Nick and Mejias, Ulises Ali. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The Costs of Connection: How Data Is Colonizing Human Life and Appropriating It for Capitalism,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Palo Alto, CA: Stanford University Press, 2019.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Cronon, William. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Nature's Metropolis: Chicago and the Great West,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> United States: W. W. Norton, 2009.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>First Followers. https://www.firstfollowersreentry.com</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Flock Safety. https://www.flocksafety.com/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Force Detroit. ‘Building peace: A vision for a freer, safer Detroit’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> December 2021</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> http://forcedetroit.org/build-peace-report-2/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Gardner, Rachel. ‘Urbana says “no” to license plate readers, but Champaign says “yes” in effort to reduce gun violence</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>’, CU-CitizenAccess,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 19 January 2022. https://cu-citizenaccess.org/2022/01/urbana-says-no-to-license-plate-readers-but-champaign-says-yes-in-effort-to-reduce-gun-violence/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Inner City Innovators. https://innercityinnovators.org/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Invisible Institute. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Champaign-Urbana Civic Police Data Project</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>. https://champaign.cpdp.co/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Haymarket Books. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Understanding E-Carceration: A Book Launch</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>with James Kilgore and Ruth Wilson Gilmore</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, 18 January 2022, video. https://www.youtube.com/live/fc2JaRJWcFM?feature=share</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>D'ignazio, Catherine and Klein, Lauren F. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Data feminism</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>. MIT Press, 2020.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Koper, Christopher S. and Lum, Cynthia. ‘The Impacts of Large-Scale License Plate Reader Deployment on Criminal Investigations’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Police Quarterly</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 22.3 (2019): 305–329. https://doi.org/10.1177/1098611119828039</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Mad Dads of Greater Pittsburgh. https://www.pittsburghmaddads.org</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Marlow, Chad and Stanley, Jay. ‘How to Pump the Brakes on Your Police Department’s Use of Flock’s Mass Surveillance License Plate Readers’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>, American Civil Liberties Union,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 13 February 2023</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> https://www.aclu.org/news/privacy-technology/how-to-pump-the-brakes-on-your-police-departments-use-of-flocks-mass-surveillance-license-plate-readers</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>McKemmish, Sue; Burstein, Frada; Faulkhead, Shannon; Fisher, Julie; Gilliland, Anne. J.; McLoughlin, Ian; and Wilson, Rob. ‘Working with communities: Community partnership research in information technology, management and systems’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Information, Communication &amp; Society</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 15.7 (2012): 985–990.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Morozov, Evgeny. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>To Save Everything, Click Here: The Folly of Technological Solutionism.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> United States: PublicAffairs, 2013.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Oteh, Chinyere E. and Belitz, Clara. ‘Care Works: An Analysis of Community Based Gun Violence Prevention in Pittsburgh, PA’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>White Paper for Spring 2022 Community Data 594</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> (2022).</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Stanley, Jay. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The Surveillance- Industrial Complex: How the American Government Is Conscripting Businesses and Individuals in the Construction of a Surveillance Society</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, New York: American Civil Liberties Union, 2004. https://www.aclu.org/sites/default/files/FilesPDFs/surveillance_report.pdf.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Stanley, Jay. ‘Fast-Growing Company Flock is Building a New AI-Driven Mass-Surveillance System’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>American Civil Liberties Union</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, 3 March 2022. https://www.aclu.org/report/fast-growing-company-flock-building-new-ai-driven-mass-surveillance-system</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>The Electronic Frontier Foundation. A</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>tlas of Surveillance.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> https://atlasofsurveillance.org/search?vendor=Flock+Safety</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>The White House. ‘More Details on the Biden-⁠Harris Administration’s Investments in Community Violence Interventions’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 7 April 2021</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> https://www.whitehouse.gov/briefing-room/statements-releases/2021/04/07/fact-sheet-more-details-on-the-biden-harris-administrations-investments-in-community-violence-interventions/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Yang, Chamee. ‘IS 594 Community Data Spring 2022’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Illinois School of Information Sciences</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, 15 February 2022. IS594 SP22 Yang Syllabus (revised).pdf</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Yang, Chamee. ‘Smart Stadium as a Laboratory of Innovation: Technology, Sport, and Datafied Normalization of the Fans’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Communication &amp; Sports,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 10.2 (2022): 374–389.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Youth Alive! https://www.youthalive.org</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Story 8</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Grohmann, Rafael; Pereira, Gabriel; Guerra, Abel; Abilio, Ludmila Costhek; Moreschi, Bruno; and Jurno, Amanda. ‘Platform scams: Brazilian workers’ experiences of dishonest and uncertain algorithmic management’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>New Media &amp; Society</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 24.7 (2022): 1611–1631. https://doi.org/10.1177/14614448221099225</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Guerra, Abel and Pereira, Gabriel. ‘Are scams a core feature of the platform economy?’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>, London School of Economics and Political Science,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 1 August 2022. https://blogs.lse.ac.uk/medialse/2022/08/01/are-scams-a-core-feature-of-the-platform-economy/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Story 9</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Anzaldúa, Gloria. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Borderlands/La Frontera: The New Mestiza.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> San Francisco: Aunt Lute Book Company, 1987.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Código Doméstico. www.codigodomestico.com</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Hidalgo Cordero, Kruskaya. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Código Doméstico in the flesh. Relatos de trabajadoras en apps de limpieza,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Ecuador: London School of Economics and Political Science, 2022. https://www.codigodomestico.com/pdf/CODIGO%20DOMESTICO%20in%20the%20flesh_Kruskaya%20Hidalgo.pdf</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Hidalgo Cordero, Kruskaya. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Domestic Code in the Flesh. Stories of workers in cleaning services apps,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Ecuador: London School of Economics and Political Science, 2022. https://www.codigodomestico.com/en/pdf/domestic_code_in_the_flesh.pdf</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>A Call to Action</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Resisting data colonialism: What lies ahead</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Aguilar, Yásnaya Elena. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>‘</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Una propuesta modesta para salvar al mundo</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>’, Rest of World,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 9 December 2020</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> https://restofworld.org/2020/tecnologia-tequio-cambio-climatico/</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Albán, Adolfo A. ‘¿Interculturalidad sin decolonialidad?: colonialidades circulantes y prácticas de re-existencia’ in Wilmer Villa and Arturo Grueso Bonilla (comps), </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Diversidad, interculturalidad y construcción de ciudad,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Bogotá: Alcaldía Mayor de Bogotá y Universidad Pedagógica Nacional, 2008</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Curiel, Ochy. ‘Crítica poscolonial desde las prácticas políticas del feminismo antirracista’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Nómadas (Col)</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 26 (2007): 92–101.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Grosfoguel, Ramón. ‘Racismo/sexismo epistémico, universidades occidentalizadas y los cuatro genocidios/ epistemicidios del largo siglo XVI’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Tabula Rasa</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 19 (2013): 31–58</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Mignolo, Walter. ‘Epistemic disobedience, independent thought and decolonial freedom’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Theory, culture &amp; society</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 26.7 and 26.8 (2009): 159–181.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Rolnik, Suely. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Esferas de la insurrección. Apuntes para descolonizar el inconsciente,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Buenos Aires: Tinta Limón, 2019.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Tzul Tzul, Gladys Elizabeth. ‘Mujeres indígenas: Historias de la reproducción de la vida en Guatemala. Una reflexión a partir de la visita de Silvia Federici’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Bajo el Volcán 15.22 (2015): 91</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>–</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>99.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Quijano, Aníbal. ‘Coloniality and modernity/rationality’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Cultural studies</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 21.2 and 21.3 (2007): 168–178.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>10 ways to resist data colonialism</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Lexicon of resistance</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Álvarez, Silvina. ‘La autonomía personal y la autonomía relacional’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Análisis Filosófico</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 35.1 (2015): 13–26. http://www.redalyc.org/articulo.oa?id=340042261002</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Benjumea, Carmen de la Cuesta. ‘El cuidado del otro: Desafíos y posibilidades’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Investigación y Educación en Enfermería</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 25.1 (2007): 106–112</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> https://www.redalyc.org/pdf/1052/105215404012.pdf</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Carmona Gallego, Diego. ‘Autonomía e interdependencia. La ética del cuidado en la discapacidad’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Revista Humanidades,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 10.2 (2020)</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> https://doi.org/10.15517/h.v10i2.41154</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>John Lewis Institute for Social Justice. ‘Our Definition of Social Justice</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>’, Central Connecticut State University,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> (n.d.)</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> https://www.ccsu.edu/john-lewis-institute-social-justice/our-definition-social-justice</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Chatzidakis, Andreas; Hakim, Jamie; Littler, Jo; Rottenberg, Catherine; and Segal, Lynne. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The Care Manifesto. The Politics of Interdependence,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> London: Verso Books, 2020.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Colanzi, Liliana. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>La Desobediencia. Antología de Ensayo Feminista,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Bolivia: Dum Dum Editorial, 2019.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Comisión Económica para América Latina y el Caribe. ‘Sobre el cuidado y las políticas de cuidado</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>’, Naciones Unidas,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> (s.f.). https://www.cepal.org/es/sobre-el-cuidado-y-las-politicas-de-cuidado</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>D 'Antoni, Maurizia; Gómez Torres, Juan; Gómez Ordoñez, Luis y Soto Arguedas, José Fabio. ‘La desobediencia como forma de resistencia: jóvenes que se hacen sujetos en contextos de &quot;declive&quot; institucional. Al respecto de la enseñanza colegial costarricense’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Revista Ensayos Pedagógicos</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 1.1 (2011), 37–54</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Dübgen, Franziska. ‘Epistemic Injustice in Practice’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Wagadu: A Journal of Transnational Women’s and Gender Studies,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 15 (2016).</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Fricker, Miranda. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Epistemic Injustice Power and the Ethics of Knowing,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> New York: Oxford University Press, 2007.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Hutton, Martina and Cappellini, Benedetta. ‘Epistemic in/justice: Towards ‘Other’ ways of knowing’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Marketing Theory</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 22.2 (2022), 155–174</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> https://doi.org/10.1177/14705931221076563</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Martínez Luna, Jaime. (2005). ‘Comunalidad y desarrollo. Antología sobre cultura populares e indígenas’ en Consejo Nacional para la Cultura y las Artes (ed.), </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Antología sobre culturas populares e indígenas. Lecturas del seminario Diálogos en la Acción segunda etapa,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> México: Dirección General de Culturas Populares e Indígenas, 335–354.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Martínez Luna, Jaime. ‘Conocimiento y comunalidad’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Bajo el Volcán</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 15.23 (2015): 99–112</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> https://www.redalyc.org/articulo.oa?id=28643473006</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Motloba, Pagollang David. ‘Understanding of the principle of Autonomy (Part 1)’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>South African Dental Journal</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 73.6 (2018) 418–420</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> http://dx.doi.org/10.17159/2519-0105/2018/v73no5a7</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Riley, Donna. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Engineering and Social Justice.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Springer International Publishing, 2008. https://doi.org/10.1007/978-3-031-79940-2</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Schmelkes, Syvlia. ‘Epistemic justice and the knowledge commons for lifelong and lifewide learning</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>’, UNESCO,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 9 January 2023. https://www.unesco.org/en/articles/epistemic-justice-and-knowledge-commons-lifelong-and-lifewide-learning</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Sieckmann, Jan-Reinard. ‘El Concepto de Autonomía’ </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>DOXA, Cuadernos de Filosofía del Derecho</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 31 (2008): 465–484.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Tătar, Ramona Gabriela and Moiși, Adela. ‘The Concept of Sovereignty’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Journal of Public Administration, Finance and Law</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 24 (2022): 292–303</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> https://doi.org/10.47743/jopafl-2022-24-27</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Robles Hernández, Sofía y Cardoso Jiménez, Rafael. ‘Comunidad y comunalidad’ en Universidad Nacional Autónoma de México (ed.), </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Floriberto Díaz . Escrito. Comunalidad, energía viva del pensamiento mixe Ayuujktsënää’yën - ayuujkwënmää’ny – ayuujk mëk’äjtën,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> México: Voces Indígenas, 2014, (31–46).</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Velasco, Juan Carlos. ‘Revitalizing democracy through civil disobedience’, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Unisinos Journal of Philosophy</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> 17.2 (2016): 111–120. doi:10.4013/fsu.2016.172.04</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+
+  </Story>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//spectrum.ieee.org/cops-smart-street-lights" Name="link" DestinationURL="https://spectrum.ieee.org/cops-smart-street-lights" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-2" Name="https://spectrum.ieee.org/cops-smart-street-lights" Source="htss-2" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/https%3a//spectrum.ieee.org/cops-smart-street-lights</Destination>
+    </Properties>
+  </Hyperlink>
+  <HyperlinkURLDestination Self="HyperlinkURLDestination/http%3a//www.jstor.org/stable/24758720" Name="link" DestinationURL="http://www.jstor.org/stable/24758720" DestinationUniqueKey="1" />
+  <Hyperlink Self="uf-1" Name="http://www.jstor.org/stable/24758720" Source="htss-1" Visible="true" DestinationUniqueKey="1">
+    <Properties>
+      <BorderColor type="enumeration">Black</BorderColor>
+      <Destination type="object">HyperlinkURLDestination/http%3a//www.jstor.org/stable/24758720</Destination>
+    </Properties>
+  </Hyperlink>
+</Document>

@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?aid style="50" type="snippet" readerVersion="6.0" featureSet="513" product="8.0(370)" ?>
+<?aid SnippetType="InCopyInterchange"?>
+<Document DOMVersion="8.0" Self="pandoc_doc">
+    <RootCharacterStyleGroup Self="pandoc_character_styles">
+      <CharacterStyle Self="$ID/NormalCharacterStyle" Name="Default" />
+      <CharacterStyle Self="CharacterStyle/Italic" Name="Italic" FontStyle="Italic">
+        <Properties>
+          <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
+        </Properties>
+      </CharacterStyle>
+      <CharacterStyle Self="CharacterStyle/Superscript" Name="Superscript" Position="Superscript">
+        <Properties>
+          <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
+        </Properties>
+      </CharacterStyle> 
+    </RootCharacterStyleGroup>
+    <RootParagraphStyleGroup Self="pandoc_paragraph_styles">
+      <ParagraphStyle Self="$ID/NormalParagraphStyle" Name="$ID/NormalParagraphStyle"
+          SpaceBefore="6" SpaceAfter="6"> <!-- paragraph spacing -->
+        <Properties>
+          <TabList type="list">
+            <ListItem type="record">
+              <Alignment type="enumeration">LeftAlign</Alignment>
+              <AlignmentCharacter type="string">.</AlignmentCharacter>
+              <Leader type="string"></Leader>
+              <Position type="unit">10</Position> <!-- first tab stop -->
+            </ListItem>
+          </TabList>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/BulList &gt; Paragraph" Name="BulList &gt; Paragraph" BulletsAndNumberingListType="BulletList" LeftIndent="0">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+          <TabList type="list">
+            <ListItem type="record">
+              <Alignment type="enumeration">LeftAlign</Alignment>
+              <AlignmentCharacter type="string">.</AlignmentCharacter>
+              <Leader type="string" />
+              <Position type="unit">10</Position>
+            </ListItem>
+          </TabList>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/BulList &gt; first &gt; Paragraph" Name="BulList &gt; first &gt; Paragraph" BulletsAndNumberingListType="BulletList" LeftIndent="0">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+          <TabList type="list">
+            <ListItem type="record">
+              <Alignment type="enumeration">LeftAlign</Alignment>
+              <AlignmentCharacter type="string">.</AlignmentCharacter>
+              <Leader type="string" />
+              <Position type="unit">10</Position>
+            </ListItem>
+          </TabList>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Footnote &gt; Paragraph" Name="Footnote &gt; Paragraph" LeftIndent="0">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Header1" Name="Header1" LeftIndent="0" PointSize="36">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Header2" Name="Header2" LeftIndent="0" PointSize="30">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Paragraph" Name="Paragraph" LeftIndent="0">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle> 
+    </RootParagraphStyleGroup>
+    <RootTableStyleGroup Self="pandoc_table_styles">
+      <TableStyle Self="TableStyle/Table" Name="Table" />
+    </RootTableStyleGroup>
+    <RootCellStyleGroup Self="pandoc_cell_styles">
+      <CellStyle Self="CellStyle/Cell" AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Name="Cell" />
+    </RootCellStyleGroup>
+  <Story Self="pandoc_story"
+      TrackChanges="false"
+      StoryTitle=""
+      AppliedTOCStyle="n"
+      AppliedNamedGrid="n" >
+    <StoryPreference OpticalMarginAlignment="true" OpticalMarginSize="12" />
+
+<!-- body needs to be non-indented, otherwise code blocks are indented too far -->
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header1">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Lexicon of resistance </Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Justice</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>There are numerous definitions within justice theory that situate it within the fields of philosophy, law, ethics, among others. Miranda Fricker proposed in her 2007 monograph, an approach that moves beyond the established frames of distributive accounts of economic disparities or political accounts of proceduralism at institutional level. Instead, she criticizes the way justice creates an impression that it is the norm and injustice the unfortunate aberration. She coined the term ‘epistemic injustice’ in order to talk about the level of representation and participation in knowledge production. Epistemic injustice occurs when dominant structures in knowledge production result in; exclusion and silencing, invisibility, inaudibility and having one's contributions distorted, misheard and/or having diminished status in communicative practices.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Franziska Dübgen, ‘Epistemic Injustice in Practice’, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Wagadu: A Journal of Transnational Women’s and Gender Studies,</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> 15 (2016).</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Miranda Fricker, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Epistemic Injustice Power and the Ethics of Knowing,</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> New York: Oxford University Press, 2007.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Martina Hutton and Benedetta Cappellini, ‘Epistemic in/justice: Towards ‘Other’ ways of knowing’, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Marketing Theory</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> 22.2 (2022), 155–174</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>.</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> https://doi.org/10.1177/14705931221076563</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Thus, epistemic justice implies the right of every person to their own knowledge and ways of generating, legitimizing and valuing it.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Syvlia Schmelkes, ‘Epistemic justice and the knowledge commons for lifelong and lifewide learning</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>’, UNESCO,</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> 9 January 2023. https://www.unesco.org/en/articles/epistemic-justice-and-knowledge-commons-lifelong-and-lifewide-learning</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Moreover, the concept of social justice may be understood as the continuing efforts to create and sustain a fair and equal society in which all people and groups are valued and affirmed. It is defined by an openness to change, seeking to end the systems that devalue the dignity of individuals. It recognizes that the legacy of the past remains and people continue to struggle for justice in their contemporary contexts. Therefore, social justice is not considered to be a goal to be achieved, but rather an ongoing process that promotes action in support of restoration and implementation of human and civil rights.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>John Lewis Institute for Social Justice, ‘Our Definition of Social Justice</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>’, Central Connecticut State University,</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> (n.d.)</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>.</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> https://www.ccsu.edu/john-lewis-institute-social-justice/our-definition-social-justice</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Donna Riley, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Engineering and Social Justice.</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> Springer International Publishing, 2008. https://doi.org/10.1007/978-3-031-79940-2</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Communality</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Communality is the thought and action of community life.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Jaime Martínez Luna, ‘Conocimiento y comunalidad’, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Bajo el Volcán</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> 15.23 (2015): 99–112</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>.</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> https://www.redalyc.org/articulo.oa?id=28643473006</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> It expresses universal principles and truths with regard to indigenous societies, which should be understood from the outset not as something opposed to, but as different from Western societies.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Sofía Robles Hernández y Rafael Cardoso Jiménez, ‘Comunidad y comunalidad’ en Universidad Nacional Autónoma de México (ed.), </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Floriberto Díaz . Escrito. Comunalidad, energía viva del pensamiento mixe Ayuujktsënää’yën - ayuujkwënmää’ny – ayuujk mëk’äjtën,</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> México: Voces Indígenas, 2014, (31–46).</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> From a philosophical approach, it is an experiential concept that allows the integral, total, natural and common understanding of life based on the interdependence of its elements, temporal and spatial, as well as the capacity of the living beings that conform it.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Martínez Luna, ‘Conocimiento y comunalidad’.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>The elements that define communality can be understood as:</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; first &gt; Paragraph" NumberingContinue="false">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>The Earth, as Mother and as territory.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Consensus in Assembly for decision making.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Free service as an exercise of authority.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Collective work as an act of recreation.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Rites and ceremonies as an expression of the communal gift.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Robles Hernández y Cardoso Jiménez, ‘Comunidad y comunalidad’.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>In sum, communality is based on respect for diversity and the principles of respect, reciprocity and a work that allows the survival of the world as a whole, as well as that of each of its instances and elements, which achieves well-being and enjoyment.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Martínez Luna, ‘Conocimiento y comunalidad’.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Autonomy</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Autonomy is a feature of the decision-making process or the formation of normative judgments.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Jan-Reinard Sieckmann, ‘El Concepto de Autonomía’ </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>DOXA, Cuadernos de Filosofía del Derecho</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> 31 (2008): 465–484.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> The modern-day concept addresses personal autonomy insofar as the agent may elect to act, or not to act, according to specified prescribed standards, norms or rules. It is generally accepted that autonomy is that condition when an agent may determine the conception, articulation and execution of concepts, ideas and actions for themself.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Pagollang David Motloba, ‘Understanding of the principle of Autonomy (Part 1)’, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>South African Dental Journal</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> 73.6 (2018) 418–420</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>.</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> http://dx.doi.org/10.17159/2519-0105/2018/v73no5a7</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> According to Álvarez, autonomy is opposed to models of domination and oppression; rejects dependency resulting from the denial of moral recognition of people, thus rejecting discrimination and marginalization; and it condemns authoritarianism insofar as it represents the denial of the denial of the capacity for political choice.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Silvina Álvarez, ‘La autonomía personal y la autonomía relacional’, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Análisis Filosófico</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> 35.1 (2015): 13–26. http://www.redalyc.org/articulo.oa?id=340042261002</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> When it comes to societies, Cornelius Castoriadis affirmed in 2006 that they are autonomous only when they are lucid with respect to the artificial character of their institutions. From this perspective, the autonomy of each subject is articulated with a collective dimension and is composed together with others.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Diego Carmona Gallego, ‘Autonomía e interdependencia. La ética del cuidado en la discapacidad’, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Revista Humanidades,</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> 10.2 (2020)</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>.</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> https://doi.org/10.15517/h.v10i2.41154</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Sovereignty</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Sovereignty is the exclusive right to exercise supreme political authority (legislative, judicial, executive) over a geographical region, over a group of people, or over themselves. Deleanu states that it ‘is not a magic word, an occult and miraculous force; it expresses the right of the state to decide for itself. However, sovereignty cannot be any pretext for arbitrariness, voluntarism, arrogance or self-consolation’.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Ramona Gabriela Tătar and Adela Moiși, ‘The Concept of Sovereignty’, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Journal of Public Administration, Finance and Law</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> 24 (2022): 292–303</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>.</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> https://doi.org/10.47743/jopafl-2022-24-27</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Disobedience</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Disobedience has to do with proposing new and provocative paths, new and disturbing questions, and to dream of daring alternatives through which the image of another possible reality is filtered.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Liliana Colanzi, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>La Desobediencia. Antología de Ensayo Feminista,</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> Bolivia: Dum Dum Editorial, 2019.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> In such a way, to think disobedience is in the first instance an exercise of thinking order, structure, norms and, strictly speaking, power relations.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Maurizia D 'Antoni, Juan Gómez Torres, Luis Gómez Ordoñez y José Fabio Soto Arguedas, ‘La desobediencia como forma de resistencia: jóvenes que se hacen sujetos en contextos de &quot;declive&quot; institucional. Al respecto de la enseñanza colegial costarricense’, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Revista Ensayos Pedagógicos</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> 1.1 (2011), 37–54</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> One of the most widespread forms of disobedience is civil disobedience, a mechanism of participation and political protest used by minorities in the process of shaping public opinion. It’s a form of political dissidence that’s highly valuable in order to revitalize the participatory fundamentals of representative democracy.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Juan Carlos Velasco, ‘Revitalizing democracy through civil disobedience’, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Unisinos Journal of Philosophy</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> 17.2 (2016): 111–120. doi:10.4013/fsu.2016.172.04</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Care</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>According to Colliére, care is ‘everything that helps to live and makes it possible to exist’. It is both a relationship and a process, a social capacity and an activity, and it’s directed to everything that nurtures and stimulates life. It is a kind of relationship constituted by a genuine disposition towards the other, reciprocity and the commitment to promote their well-being and flourishing. That is, prioritizing care means recognising and embracing our interdependencies.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Carmen de la Cuesta Benjumea, ‘El cuidado del otro: Desafíos y posibilidades’, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>Investigación y Educación en Enfermería</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> 25.1 (2007): 106–112</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>.</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> https://www.redalyc.org/pdf/1052/105215404012.pdf</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Superscript">
+    <Content>,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Andreas Chatzidakis, Jamie Hakim, Jo Littler, Catherine Rottenberg, and Lynne Segal, </Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>The Care Manifesto. The Politics of Interdependence,</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> London: Verso Books, 2020.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Care policies encompass public measures concerning the social and economic organization of work to ensure the day-to-day physical and emotional well-being of people. They concern both the recipients and providers of care, and include measures to ensure access to the services, time and resources needed for giving and receiving care, as well as regulations and oversight to safeguard its quality.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Comisión Económica para América Latina y el Caribe, ‘Sobre el cuidado y las políticas de cuidado</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+          <Content>’, Naciones Unidas,</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content> (s.f.). https://www.cepal.org/es/sobre-el-cuidado-y-las-politicas-de-cuidado</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+
+  </Story>
+  
+</Document>

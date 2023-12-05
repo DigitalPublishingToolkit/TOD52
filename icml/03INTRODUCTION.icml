@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?aid style="50" type="snippet" readerVersion="6.0" featureSet="513" product="8.0(370)" ?>
+<?aid SnippetType="InCopyInterchange"?>
+<Document DOMVersion="8.0" Self="pandoc_doc">
+    <RootCharacterStyleGroup Self="pandoc_character_styles">
+      <CharacterStyle Self="$ID/NormalCharacterStyle" Name="Default" />
+      <CharacterStyle Self="CharacterStyle/Italic" Name="Italic" FontStyle="Italic">
+        <Properties>
+          <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
+        </Properties>
+      </CharacterStyle> 
+    </RootCharacterStyleGroup>
+    <RootParagraphStyleGroup Self="pandoc_paragraph_styles">
+      <ParagraphStyle Self="$ID/NormalParagraphStyle" Name="$ID/NormalParagraphStyle"
+          SpaceBefore="6" SpaceAfter="6"> <!-- paragraph spacing -->
+        <Properties>
+          <TabList type="list">
+            <ListItem type="record">
+              <Alignment type="enumeration">LeftAlign</Alignment>
+              <AlignmentCharacter type="string">.</AlignmentCharacter>
+              <Leader type="string"></Leader>
+              <Position type="unit">10</Position> <!-- first tab stop -->
+            </ListItem>
+          </TabList>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Footnote &gt; Paragraph" Name="Footnote &gt; Paragraph" LeftIndent="0">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Header1" Name="Header1" LeftIndent="0" PointSize="36">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Header3" Name="Header3" LeftIndent="0" PointSize="24">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Paragraph" Name="Paragraph" LeftIndent="0">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle> 
+    </RootParagraphStyleGroup>
+    <RootTableStyleGroup Self="pandoc_table_styles">
+      <TableStyle Self="TableStyle/Table" Name="Table" />
+    </RootTableStyleGroup>
+    <RootCellStyleGroup Self="pandoc_cell_styles">
+      <CellStyle Self="CellStyle/Cell" AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Name="Cell" />
+    </RootCellStyleGroup>
+  <Story Self="pandoc_story"
+      TrackChanges="false"
+      StoryTitle=""
+      AppliedTOCStyle="n"
+      AppliedNamedGrid="n" >
+    <StoryPreference OpticalMarginAlignment="true" OpticalMarginSize="12" />
+
+<!-- body needs to be non-indented, otherwise code blocks are indented too far -->
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header1">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>INTRODUCTION. There is something wrong with data extraction</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Nick Couldry</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Some people, mainly from the privileged West, think that colonialism is long over. Others are sure that colonialism has never stopped. This book explores a third possibility: that not only is colonialism still continuing, but that right now it is morphing into its most powerful version yet. We call this data colonialism.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Data colonialism is a landgrab that’s going on in societies across the world. We don’t mean a literal grab of land, but an act of seizing resources, any sort of resource, in an absolute way. Colonialism, while of course it is much more than this, was originally built from such landgrabs, but even historical colonialism seized much more than land: it seized the resources under the land and produced from farming the land, as well as the bodies to do that work. </Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Today what is being seized is the social life of human beings. The flow and texture of individual human lives are being seized by corporations —and sometimes governments too. They are being seized in the form of data. That data generates value: economic value for corporations and the value that governments get from controlling us more effectively. Either way, a new source of power is being created at human beings’ expense, in a new data </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>landgrab</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>. </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Ulises Ali Mejias and Nick Couldry, Data Grab: the New Colonialism and how to Resist It, Penguin and W. H. Allen &amp; Company, 2024 forthcoming.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Nick Couldry and Ulises Ali Mejias, The Costs of Connection: How Data is Colonizing Everyday Life and Appropriating it for Capitalism, Stanford University Press, 2019.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Paola Ricaurte, ‘Data epistemologies, The Coloniality of Power, and Resistance’, Television and New Media, 20.4 (2019): 350-365.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>It is not that tracking human life to extract value from it is wholly new. Some institutions such as prisons and schools have for centuries involved close surveillance. Some workers have been tracked much more intensively than others, the most extreme case being the constant eye of the plantation owner on his slaves. </Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>What is new today is the </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>scope, scale and depth</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> of how human life is being tracked for the benefit of commercial and governmental elites. Today’s forms of data extraction are more widespread, more fine-grained, and more multi-layered than anything previously seen in history. And data extraction operates not just at particular moments, but cumulatively: the data taken from us </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>at one moment</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> can be combined with data collected from us </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>and</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> from other people </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>at other times</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>. Our lives are becoming part of a vast grid of continuous comparison and analysis by external institutions.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>This represents a major shift in the power relations in contemporary life: knowledge is power, and the amount of knowledge that external institutions have about us is increasing massively. A shift in power relations potentially as dramatic as that involved in the original landgrab of historical colonialism.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>In this short book, we try to build some tools to understand what is going on with data today, why it is colonial, and how collectively to resist it. This is hard. Not only has resisting colonialism always been very hard, because of the highly unequal forces pitted against each other. But today the new stage of colonialism –data colonialism– is arguably implicated in the everyday running of the economy in ways even deeper than when historical colonialism provided the fuel for capitalism to emerge over two centuries ago. Today’s colonizers are not adventuring conquistadors or governors of provinces, but the very same corporations that provide us with what seem like our basic services for living – platforms to social life, apps for monitoring our health, the interfaces where our children learn in school, and so on.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Instead of coming just from competing European countries, today’s colonizers are dominated by two poles (the US and China), with other countries (e.g., India, Israel, and various European countries) playing a role too in shaping how data is extracted through digital platforms. So the geopolitics of data colonialism is complicated, but that does not make data colonialism any less real.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>This means that we need to look at the familiar shape of our digital culture in a new and critical light: in a way that remembers the history of colonialism and sees its whole history –including today’s unfolding new phase of massive data extraction– as the continuation of a process of unequal resource extraction from the many by the few that has been going on for 500 years.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>This book is intended as a </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>practical tool</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>. It is the work of many voices and draws on a diversity of ways of thinking. Building upon decolonial scholars, our goal is that this discussion of data colonialism should lead to </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>praxis</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>: the enactment of resistance. We therefore hope the book will prove useful to citizens, communities, and teachers who want resources to help start thinking and taking action in regards to data colonialism in their lives.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>We have not tried to disguise our individual voices. This book is like a small concert where all our voices can be heard. It is like a river that allows the streams of our individual thinking and writing to come together in a larger river that one day will reach the ocean: the ocean of a bigger movement to resist data colonialism across all parts of the world. </Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>The first part of the book sets out a framework for understanding and resisting data colonialism. Chapter 1 by Alejandro Mayoral reflects on what colonialism has been historically, and its different dimensions. Chapter 2 by Nai Lee Kalema looks at why capitalism is always racial capitalism, and how that, in turn, is combining with data colonialism to form digital racial capitalism. Chapter 3 by Teresa Numerico reflects on the role of science —including Artificial Intelligence, science’s latest dominant form— in providing an apparently natural medium through which the far-from-natural processes of colonialism and racial capitalism can work. Chapter 4 by Gabriel Pereira and Nick Couldry looks at the sorts of specific harm data colonialism is carrying out today across the world. Chapter 5 by Joana Varón explores however, beyond banal forms of datafication, data practices work to erase ways of life, particularly in the domain of sexuality and gender.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>The second part of the book is composed by Stories of Resistance. These are case studies of resistance to data colonialism, written from the viewpoint of different communities around the world. We place these cases [later in] the book so that you have lived realities as a reference-point for thinking about the broader ideas we propose.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Finally, the book also offers practical resources in the form of A Call to Action, including ten decolonial principles to live by, and a lexicon of keywords for this struggle.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>This book emerged from a thoroughly collective process. Our network, Tierra Común,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Tierra Común. Interventions for data decolonization. https://www.tierracomun.net/en/home/</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> which was formed at the start of the global COVID-19 pandemic, identified a book as a potential common project. Over time, a small group formed who wanted to work on this more intensively to create a common text that could be useful to others. We discussed these different texts and, across the time span of a year, wrote and edited the different parts across remote meetings.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>The text is published also on the Tierra Común website and that of the Institute for Network Cultures: other members are free to add to its online form, including by adding case studies, at any time. This is a living text. A text whose life we hope will contribute to struggles against data colonialism everywhere. . .</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+
+  </Story>
+  
+</Document>

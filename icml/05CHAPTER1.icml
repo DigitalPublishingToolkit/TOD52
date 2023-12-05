@@ -1,0 +1,1346 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?aid style="50" type="snippet" readerVersion="6.0" featureSet="513" product="8.0(370)" ?>
+<?aid SnippetType="InCopyInterchange"?>
+<Document DOMVersion="8.0" Self="pandoc_doc">
+    <RootCharacterStyleGroup Self="pandoc_character_styles">
+      <CharacterStyle Self="$ID/NormalCharacterStyle" Name="Default" />
+      <CharacterStyle Self="CharacterStyle/Bold Italic" Name="Bold Italic" FontStyle="Bold Italic">
+        <Properties>
+          <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
+        </Properties>
+      </CharacterStyle>
+      <CharacterStyle Self="CharacterStyle/Italic" Name="Italic" FontStyle="Italic">
+        <Properties>
+          <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
+        </Properties>
+      </CharacterStyle>
+      <CharacterStyle Self="CharacterStyle/Superscript" Name="Superscript" Position="Superscript">
+        <Properties>
+          <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
+        </Properties>
+      </CharacterStyle> 
+    </RootCharacterStyleGroup>
+    <RootParagraphStyleGroup Self="pandoc_paragraph_styles">
+      <ParagraphStyle Self="$ID/NormalParagraphStyle" Name="$ID/NormalParagraphStyle"
+          SpaceBefore="6" SpaceAfter="6"> <!-- paragraph spacing -->
+        <Properties>
+          <TabList type="list">
+            <ListItem type="record">
+              <Alignment type="enumeration">LeftAlign</Alignment>
+              <AlignmentCharacter type="string">.</AlignmentCharacter>
+              <Leader type="string"></Leader>
+              <Position type="unit">10</Position> <!-- first tab stop -->
+            </ListItem>
+          </TabList>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/BulList &gt; Paragraph" Name="BulList &gt; Paragraph" BulletsAndNumberingListType="BulletList" LeftIndent="0">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+          <TabList type="list">
+            <ListItem type="record">
+              <Alignment type="enumeration">LeftAlign</Alignment>
+              <AlignmentCharacter type="string">.</AlignmentCharacter>
+              <Leader type="string" />
+              <Position type="unit">10</Position>
+            </ListItem>
+          </TabList>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/BulList &gt; first &gt; Paragraph" Name="BulList &gt; first &gt; Paragraph" BulletsAndNumberingListType="BulletList" LeftIndent="0">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+          <TabList type="list">
+            <ListItem type="record">
+              <Alignment type="enumeration">LeftAlign</Alignment>
+              <AlignmentCharacter type="string">.</AlignmentCharacter>
+              <Leader type="string" />
+              <Position type="unit">10</Position>
+            </ListItem>
+          </TabList>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Footnote &gt; Paragraph" Name="Footnote &gt; Paragraph" LeftIndent="0">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Header1" Name="Header1" LeftIndent="0" PointSize="36">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Header2" Name="Header2" LeftIndent="0" PointSize="30">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Header3" Name="Header3" LeftIndent="0" PointSize="24">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/NumList &gt; Paragraph" Name="NumList &gt; Paragraph" NumberingExpression="^#.^t" NumberingLevel="1" BulletsAndNumberingListType="NumberedList" LeftIndent="0">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/NumList &gt; first &gt; Paragraph" Name="NumList &gt; first &gt; Paragraph" NumberingExpression="^#.^t" NumberingLevel="1" BulletsAndNumberingListType="NumberedList" LeftIndent="0">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Paragraph" Name="Paragraph" LeftIndent="0">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle> 
+    </RootParagraphStyleGroup>
+    <RootTableStyleGroup Self="pandoc_table_styles">
+      <TableStyle Self="TableStyle/Table" Name="Table" />
+    </RootTableStyleGroup>
+    <RootCellStyleGroup Self="pandoc_cell_styles">
+      <CellStyle Self="CellStyle/Cell" AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Name="Cell" />
+    </RootCellStyleGroup>
+  <Story Self="pandoc_story"
+      TrackChanges="false"
+      StoryTitle=""
+      AppliedTOCStyle="n"
+      AppliedNamedGrid="n" >
+    <StoryPreference OpticalMarginAlignment="true" OpticalMarginSize="12" />
+
+<!-- body needs to be non-indented, otherwise code blocks are indented too far -->
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header1">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>CHAPTER 1. Data colonialism is not a metaphor: Remembering colonialism and why it matters in the digital ecosystem</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Alejandro Mayoral Banos</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Summary</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; first &gt; Paragraph" NumberingContinue="false">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Data colonialism does not disregard the violence of colonialism in history as a theoretical concept. Still, it reflects on the methods, practices, and oppressions that have been transferred and evolved into digital technologies.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>To understand the scope and boundaries of data colonialism, the correlations between the domains of the colonial matrix of power by Anibal Quijano and the digital practices are explored.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Colonialism has been based on social, economic, political, and epistemic oppressive methods to secure the extraction and misappropriation of resources from different geographies.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Superscript">
+          <Content>Ramón Grosfoguel, ‘Transmodernity, border thinking, and global coloniality. Decolonizing political economy and postcolonial studies’, Revista Crítica de Ciências Sociais 80.4 (2008).</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Black, Indigenous and Peoples of Colour communities have continuously faced violent forms of oppression, such as the aggressive dispossession of lands and their natural resources, displacement, and the practice and consequences of slavery since the Age of Discovery in the 15th century by European empires. Throughout this colonial process, the continuous action of extraction of all types of resources (e.g., natural, intellectual, political, and economical) has been central.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Couldry and Mejias, The Costs of Connection: How Data is Colonizing Everyday Life and Appropriating it for Capitalism.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Grosfoguel, ‘Transmodernity, border thinking, and global coloniality. Decolonizing political economy and postcolonial studies’.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Jathan Sadowski, ‘When data is capital: datafication, accumulation and extraction’, Big Data &amp; Society 6.1 (2019). doi:10.1177/2053951718820549.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> </Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>The examination of colonization transcends the control of physical land and resources. It extends to controlling narratives about people —their identities, cultures, histories— and how they should behave, including norms related to gender and sexuality. It continues to exist and influence societies long after direct political control by colonial powers has ended.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>María Lugones, ‘Heterosexualism and the Colonial/Modern Gender System’, Hypatia 22.1 (2007): 186–209.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Currently, the fast advancement of digital technologies and their high penetration level across different sectors and marginalized groups have begun to evolve in an increasingly digital adoption of Information and Communication Technologies (ICTs) across diverse populations worldwide.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Manuel Castells y Pekka Himanen (eds.), Reconceptualización del desarrollo en la era global de la información, Fondo de Cultura Económica, 2016.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> The transformation of non-digital actions into digital assets restated the embodiment of human knowledge in the digital sphere, which meant that more complex forms of human experience could be at least partially transferred to the digital realm. This included, for example, marketing and political campaigns, cultural expressions, physiological data, economic currencies, and psychological emotions via social media, among others. Cusicanqui argues that colonialism is not only a historical phenomenon but also a structure that shapes our mental categories and social practices.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Silvia Rivera Cusicanqui, ‘Ch'ixinakax utxiwa: A reflection on the practices and discourses of decolonization’, South Atlantic Quarterly 111.1 (2012): 95–109.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Therefore, digital technologies are transformed when our mental and social practices are translated into the digital world.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>The advancement of computer power to produce and maintain these forms of abstraction signified that human experiences could be processed as data and, in this form, generate patterns and create meaning in order to produce capital value. The context for this huge change in knowledge and value production was that, in the last part of the 20th century, the extraction of natural resources decelerated to being a sustainable and profitable source of revenue due to the clearly changing climate conditions and the continuous incremental capital accumulation, which contrasted with the limited quantity of physical resources available in the nature (e.g., oil, water, minerals, among many others). As a result, the colonial essence of resource extraction started to become limited and unsatisfying for the capital interests of the private sector.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Therefore, from the abstraction of human experiences to the digital world, a deliberate conception of data as a ‘natural resource’ from a colonial lens was conceived. It emerged as a form to embody the physical environment in the digital realm, thus raising awareness of the impact digital technologies are having at the individual, communal and environmental levels —as well as helping envision possible systemic changes. This conceptualization was mainly based on data becoming the new source of revenue, replicating historical and colonial practices of oppression through different technologies and their monopolies.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Densua Mumford, ‘Data colonialism: compelling and useful, but whither epistemes?’, Information, Communication &amp; Society 25.10 (2021): 1511–1516.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> It is on this basis that data colonialism emerged as a way of naming this phenomenon but simultaneously recognizing the extractive and oppressive nature of digital ecosystems. This chapter explains the essential characteristics and importance of data colonialism through the analysis of its intersections with the colonial matrix of power in order to build awareness and expertise in this form of oppression.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Characteristics of Colonialism</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Colonialism is a complex term due to the extensive nature of its usage and the consequences of its oppressive practices. In 2000, Aníbal Quijano and Michael Ennis conceived </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>the colonial matrix of power</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> as an approach to explain how different European empires implemented several domains to secure the misappropriation of all types of resources (e.g., natural, political, economic). These strategies were segregated among different colonial nations and their colonies, and therefore we can see common forms of oppression worldwide across many diverse communities and regions. In other words, the colonial matrix of power frames the essential characteristics of colonialism, and although the local definitions and experiences of colonialism may differ from one geography to another, the prevalent forms of domination remain the same because they have a common colonial origin: European ideologies. These ideologies and forms of exercising power in colonialism have had the primary purpose of guaranteeing continuous processes of extraction.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Aníbal Quijano and Michael Ennis, ‘Coloniality of power, Eurocentrism, and Latin America’, Nepantla: Views from South 1.3 (2000): 533–580.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>According to Quijano,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Quijano and Ennis, ‘Coloniality of power, Eurocentrism, and Latin America’.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> colonialism involved four domains through which European empires exercised power over their colonies, which are linked through the idea of the colonial matrix of power:</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; first &gt; Paragraph" NumberingContinue="false">
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold Italic">
+    <Content>Authority</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>: The colonial powers maintain and foster unequal political relationships that secure resource appropriation; several forms of authority, such as the colonial governments, monarchies and armies, were institutionalized, validated and legalized within the colonies.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold Italic">
+    <Content>Economy</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>: A significant unequal global distribution of the benefits from resource extraction (e.g. global poverty, multimillionaires, monarchies) through land appropriation, exploitation of labor (e.g. slavery, forced labor) and control of natural resources.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold Italic">
+    <Content>Gender</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>/</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold Italic">
+    <Content>Sexuality</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>: Women were objectified and seen as a medium for reproduction. Women were displaced from positions of power to foster the individualistic and sexist perspective of capital accumulation via family and education; male-dominant societies were fostered and encouraged; and</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Bold Italic">
+    <Content>Knowledge and subjectivity</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>: the enforcement of European epistemic ideologies over other ways of knowing to make sense of all the oppression. This power imbalance reinforces epistemic ideologies over others, which erases several cultural identities, perpetuating racist and sexist practices to hold hegemonic power.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Lisa Nakamura and Peter Chow-White (eds.), ‘Introduction—Race and digital technology: Code, the color line, and the information society’, in Race after the Internet, Routledge, 2012, pp. 1–18.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> </Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>These four characteristics of European colonial ideology, working together, have created huge socioeconomic inequalities and disparities worldwide. They have also fostered and developed the current global climate crisis through the uncontrolled extraction of natural resources for decades. Moreover, colonialism was justified by its protagonists through the claim of racial superiority, which justified that particular representatives of the human race could dominate and extract from the environment and nature without limits and consequences. The continuous desire for economic dominion has created unlimited wealth accumulation from what was always a finite amount of available natural resources.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>The colonial matrix of power provides a general overview of the common oppressive characteristics of colonial structures in digital spaces; however, as Cusicanqui asserts,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Cusicanqui, ‘Ch'ixinakax utxiwa: A reflection on the practices and discourses of decolonization’.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> it is essential to acknowledge the agency and resistance of colonized communities in shaping their own experiences of colonialism at the local level. Therefore, although these characteristics are common to diverse contexts, the importance of local definitions and experiences of colonialism needs to be emphasized when this concept is being applied at the local level, and therefore they need to be reflected and adapted to the unique historical and cultural contexts of each community.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>The Matrix of Power and Digital Technologies</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>When the methods and consequences of oppressive digital practices were exposed through public scandals —such as the </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Cambridge Analytica</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> appropriation of people’s Facebook data for divisive electoral purposes— the conception of data colonialism as a way of articulating these oppressions became a natural step.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Couldry and Mejias, The Costs of Connection: How Data is Colonizing Everyday Life and Appropriating it for Capitalism.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> However, data colonialism does not intend to disregard the violence of colonialism in history as an epistemic concept, but it aims to reflect the methods, practices, and oppressions that have been transferred and evolved into digital technologies.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Couldry and Mejias, The Costs of Connection: How Data is Colonizing Everyday Life and Appropriating it for Capitalism.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Mumford, ‘Data colonialism: compelling and useful, but whither epistemes?’.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Sadowski, ‘When data is capital: datafication, accumulation and extraction’.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Moreover, the analysis of data colonialism is part of an effort to dismantle these practices by conceiving alternative solutions and learning from the historical resilience of groups in the margins and oppressive practices. Furthermore, the advancement of digital technologies brings new technical and ethical challenges and threats that require transdisciplinary lenses and reflections in order to find solutions and opportunities for the complex problems of climate change and global inequality.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Alejandro Mayoral-Baños, Tech Anishinaabe Medicine Wheel: Decolonial Design Principles within Digital Technologies through the Development of the Indigenous Friends Platform, unpublished PhD diss., York University, Ontario, Canada, 2021. https://yorkspace.library.yorku.ca/xmlui/handle/10315/38793.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> These practices must be conceived as complex constructions from different identities, knowledge areas, and geographies. Therefore, data colonialism is not conceived as a metaphor but as an epistemic and pragmatic concept that aims to build awareness of the non-neutral and negative consequences of the digital ecosystem.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> </Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Continuous extraction as a method of violence and unequal profitability defines the vital component between colonialism and its relationship with data. Moreover, the domains of the </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>colonial matrix of power</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Quijano and Ennis, ‘Coloniality of power, Eurocentrism, and Latin America’.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> within digital technologies continue to transform into ‘innovative’ forms of oppression that create the illusion in the general population that digital tools are neutral and, moreover, that digital tech is a simple solution for social and environmental justice. At the same time, the scope of colonial extraction has now been heavily amplified under digital technologies. This expansion is part of the evolution of historical colonialism, which expanded European ideologies to new territories and centers of power. Nowadays, the European ideologies of extraction are not centered in continental Europe </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>per se</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> but elsewhere, where primarily Washington (USA) and, secondarily Beijing (China) are the ideological and geopolitical power centers for promoting capital accumulation and hegemonic dominance.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Walter Mignolo, The darker side of Western modernity: Global futures, decolonial options, Durham, NC: Duke University Press, 2011.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>In order to understand the scope and boundaries of data colonialism, we need to explore the correlations between the domains of the colonial matrix of power and digital practices. Indeed, this helps us imagine possible responses to these multiple forms of oppression:</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> </Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>(1) </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Authority and digital tech</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>: Digital technologies have increased the world’s securitization through internet tools: the cloud, Artificial Intelligence, big data, social media and the Internet of Things (IoT).</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Vincent Mosco, Becoming digital: Toward a post-Internet society, Bingley, UK: Emerald Group Publishing, 2017.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> This factor is happening in various nation-states through exploiting technology for surveillance, biometric scanners, and radio frequency identification tags,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Laurent Elder, Rohan Samarajiva, Alison Gillwald and Hernán Galperin, Information lives of the poor : fighting poverty with technology, Canada: International Development Research Center, 2013.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> to name just a few. Online devices can provide billions of eyes to the US Department of Defense, the (US) National Security Agency, and the Central Intelligence Agency for global surveillance.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Mosco, Becoming digital: Toward a post-Internet society.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Moreover, several dissident voices against authoritarian regimes have been censored (e.g., incarceration, assassination, disappearances) with internet tools.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Elder, Samarajiva, Gillwald and Galperin, Information lives of the poor : fighting poverty with technology.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Evgeny Morozov, The net delusion: The dark side of Internet freedom, New York: PublicAffairs, 2011.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>In this matter, several authors have linked big data, IoT, cloud computing and social media to the Foucauldian application of the panopticon and Orwell’s concept of Big Brother because these technologies shape perfect forms of surveillance and power.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Morozov, The net delusion: The dark side of Internet freedom.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Mosco, Becoming digital: Toward a post-Internet society.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>In other words, from these perspectives, digital technologies are used as oppressive tools to maintain control and surveillance over citizens.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Moreover, crime has also found a new place of growth in the dark web of the internet, enabling this type of crime to exist outside of the scope of the Panopticon and Big Brother of the national totalitarian states because of the anonymity and privacy features that are attributed to the dark web.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Morozov, The net delusion: The dark side of Internet freedom.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Tim Unwin, Reclaiming information and communication technologies for development, Oxford: Oxford University Press, 2017.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Furthermore, the super-accelerated development of digital technologies is expediting the decline of the ‘democratized, decentralized and open-source Internet’ due to the concentration and commodification of information by a deficient number of stakeholders.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Mosco, Becoming digital: Toward a post-Internet society.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> This transformation is due to the economic and technical power of a few global companies: Google, Apple, Meta (formerly Facebook), Amazon and Microsoft (Mosco calls them the ‘Big Five’, and other authors call them GAFAM) and the national jurisdiction that rules these companies, i.e., the United States government.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>As stated by Guatemalan lawyer and activist Renata Ávila-Pinto: ‘The power of surveillance and the concentration of the data gathered by both public and private mechanisms is focused on a small number of actors, public and private, based mainly in one jurisdiction and leading to a rapid erosion of state sovereignty and democracy’.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Renata Ávila-Pinto, ‘Digital sovereignty or digital colonialism?’, Sur – International Journal on Human Rights 15.27 (2018): 15–27.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> This concentration of power and decision-making is one of the signs of the oppressive character of digital technologies. Transnational American tech companies significantly affect how global data is managed and controlled across various jurisdictions. Regarding this issue, Couldry and Mejias claim that transnational tech companies replicate practices from the extractive industries (e.g., mining, lodging) through big data and cloud services.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Couldry and Mejias, The Costs of Connection: How Data is Colonizing Everyday Life and Appropriating it for Capitalism.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>In the same regard, Shoshana Zuboff coined the term ‘surveillance capitalism’ as a form to describe how tech companies ‘predict and modify human behaviour as a means to produce revenue and market control’.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Shoshana Zuboff, ‘Big other: Surveillance Capitalism and the Prospects of an Information Civilization’, Journal of Information Technology 30.1 (2015): 75–89. https://doi.org/10.1057/jit.2015.5</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Moreover, she described a new form of an economic order that generates a new social and political order through non-transparent commercial practices of extraction, prediction and sales. In this form, the logic of colonial practices continues and is being fostered by the market.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>However, these approaches are not recent. In 2006, David Noble warned about the increase of big data and the use of cloud computing, stating that: ‘visions of democratization and popular empowerment via the [N]et are dangerous; whatever the gains, they are overwhelmingly overshadowed and more than nullified by the losses. As the computer screens brighten with promise for the few, the light at the end of the tunnel grows dimmer for the many’.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Andrew Feenberg, ‘Toward a critical theory of the Internet’, in Andrew Feenberg and Norm Friesen (eds.), (Re)Inventing the internet: Critical case studies, Boston: Sense Publishers, 2012.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> </Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>(2) </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Economy and digital tech</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>: The enormous economic power private tech companies have over digital technologies signifies that few people from certain regions and identities are responsible for most of the infrastructure and policies regarding digital tech. Laws, policies and regulations allow this disparity to continue over time and in different regions. In the same way, several legal frameworks justified land extraction and exploitation during historical colonialism. One of those frameworks was the doctrine of discovery and the papal bull of </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>terra nullius</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> (from the Latin expression which means ‘nobody’s land’), which justified the violence and oppression to steal the land and resources of several Black, Indigenous and local communities.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Couldry and Mejias, The Costs of Connection: How Data is Colonizing Everyday Life and Appropriating it for Capitalism.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> This continuous form of extraction created the economic oligarchies and empires established across Europe since the 15th century.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>In the same form, the current digital ecosystem replicates the economic oligarchies of historic colonialism (and imperialism), in which few companies and entities own and control both capital resources (i.e., cables, servers and data) and intellectual resources (i.e., the most advanced technicians and research institutions) of digital technologies. Nowadays, these structures are protected by domestic and international legal frameworks (e.g. intellectual property rights), which prevent small economies from adopting policies in favor of local goods and services with the threat of legal proceedings for adopting anti-competitive measures.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Ávila-Pinto, ‘Digital sovereignty or digital colonialism?.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> This also occurs in the legal protection of the continuous extraction of knowledge from Black, Indigenous and local communities, as well as in the continuous unequal distribution of the benefits derived from such information. Moreover, it is also bringing the ability for digital companies to exploit information and build online communities while generating revenue primarily through the personal data of the users using data mining and advertising.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Ávila-Pinto, ‘Digital sovereignty or digital colonialism?.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Superscript">
+    <Content>,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Unwin, Reclaiming information and communication technologies for development.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>(3) </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Gender/Sexuality and digital tech</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>: The utopia that digital technologies were neutral regarding gender, race, class, religion, language, and other identity categories has been remarkably disproven by all types of power demonstrations across countries, regions, and platforms.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Lisa Nakamura, ‘Race and identity in digital media’, in James Curran (ed.), Media and Society, London: Bloomsbury Publishing, 2010, pp. 336–347.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> The sociocultural constructs of gender and sexuality are being transferred from the non-digital to the digital realm through the identities and constructs of the designers and developers of digital spaces and, moreover, through the user-generated content uploaded to digital platforms. Digital technologies based on artificial intelligence and machine learning reproduce the same biases as their white-male dominant creators and designers.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Ruha Benjamin, Ruha. Race After Technology: Abolitionist tools for the new Jim code. United States: Polity, 2019.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>In this regard, Lugones has argued that colonialism operates through a logic of domination, where certain groups are deemed superior and others inferior based on their race, gender, sexuality, and other identity categories.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Lugones, ‘Heterosexualism and the Colonial/Modern Gender System’.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> When applying Lugones' framework to the realm of digital technologies, it becomes evident that these technologies are not neutral but rather perpetuate and reproduce the power dynamics of colonialism. As mentioned, digital technologies are designed and developed by predominantly white-male creators who bring their biases and perspectives into the digital realm. This results in reproducing patriarchal and male biases within the digital space.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>As a recent example, in 2018 the United Nations called out Facebook for its function in inciting racist violence and hate speech in Myanmar, which led to the Rohingya genocide.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Tom Miles, ‘U.N. investigators cite Facebook role in Myanmar crisis’, Reuters, 12 March 2018, https://www.reuters.com/article/us-myanmar-rohingya-facebook-idUSKCN1GO2PN</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Similarly, Salazar asserts that digital technologies are mainly written in English, and they do not adapt to other communities’ language necessities.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Juan Francisco Salazar, ‘Activismo indígena en América Latina: estrategias para una construcción cultural de las tecnologías de información y comunicación’, Journal of Iberian and Latin American Research 8.2 (2002): 61–80.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Ultimately, studies have concluded that digital technologies are culturally and socially dominated by patriarchy and male biases because of digital hegemony.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Nakamura, ‘Race and identity in digital media’.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>T.V. Reed, Digitized lives: Culture, power, and social change in the Internet era, Routledge, 2019.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> For more on this topic, see the Chapter by Joana Varón below.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>(4) </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Knowledge and digital tech</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>: The original utopian vision that the internet (especially Web 2.0) was an open space for “everyone” to share their knowledge and be heard became overwhelmingly challenged through the conception and development of social media. The political aspiration of freedom in social media is contested, as large numbers of discourses on the Internet are not allowing marginalized voices to be heard, and nowadays, they are frequently censored.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Mark Bauerlein, The digital divide: Arguments for and against Facebook, Google, texting, and the age of social networking, New York: Penguin, 2011.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Only people with a certain number of followers or subscribers on social media (or those who can pay for them) are considered part of the political debate. Alongside this phenomenon, cyberbullying and online hate speech promote new forms of violence against those voices.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Bauerlein, The digital divide: Arguments for and against Facebook, Google, texting, and the age of social networking.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>,</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Morozov, The net delusion: The dark side of Internet freedom.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> In other words, oppressive and exclusionary practices are replicated and amplified in several digital spaces, and social divisions are maintained. From an epistemological point of view, this phenomenon signifies that only certain voices, identities and ideologies dominate digital spaces and discussions; commonly, these forms of knowledge are European/capitalist/military/Christian/patriarchal/white/heterosexual/male. Therefore, the dominance of knowledge production by elites continues to be replicated in digital tech. </Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> </Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>This Chapter’s analysis of digital tech through the lens of the Colonial Matrix of Power highlights the different ways in which colonial methods of oppression continue to be replicated and expanded. Their tangible consequences in the different aspects of the economy, societies and global politics continue to shift the discourses shaping the laws, policies, and regulations worldwide. Data colonialism is a departing point where activists, academics, technology creators, designers, and stakeholders come together to propose and imagine how digital technologies can be recreated and transformed to dismantle systems of power and oppression.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+
+  </Story>
+  
+</Document>

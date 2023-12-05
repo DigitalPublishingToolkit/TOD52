@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?aid style="50" type="snippet" readerVersion="6.0" featureSet="513" product="8.0(370)" ?>
+<?aid SnippetType="InCopyInterchange"?>
+<Document DOMVersion="8.0" Self="pandoc_doc">
+    <RootCharacterStyleGroup Self="pandoc_character_styles">
+      <CharacterStyle Self="$ID/NormalCharacterStyle" Name="Default" />
+      <CharacterStyle Self="CharacterStyle/Italic" Name="Italic" FontStyle="Italic">
+        <Properties>
+          <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
+        </Properties>
+      </CharacterStyle> 
+    </RootCharacterStyleGroup>
+    <RootParagraphStyleGroup Self="pandoc_paragraph_styles">
+      <ParagraphStyle Self="$ID/NormalParagraphStyle" Name="$ID/NormalParagraphStyle"
+          SpaceBefore="6" SpaceAfter="6"> <!-- paragraph spacing -->
+        <Properties>
+          <TabList type="list">
+            <ListItem type="record">
+              <Alignment type="enumeration">LeftAlign</Alignment>
+              <AlignmentCharacter type="string">.</AlignmentCharacter>
+              <Leader type="string"></Leader>
+              <Position type="unit">10</Position> <!-- first tab stop -->
+            </ListItem>
+          </TabList>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/BulList &gt; Paragraph" Name="BulList &gt; Paragraph" BulletsAndNumberingListType="BulletList" LeftIndent="0">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+          <TabList type="list">
+            <ListItem type="record">
+              <Alignment type="enumeration">LeftAlign</Alignment>
+              <AlignmentCharacter type="string">.</AlignmentCharacter>
+              <Leader type="string" />
+              <Position type="unit">10</Position>
+            </ListItem>
+          </TabList>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/BulList &gt; first &gt; Paragraph" Name="BulList &gt; first &gt; Paragraph" BulletsAndNumberingListType="BulletList" LeftIndent="0">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+          <TabList type="list">
+            <ListItem type="record">
+              <Alignment type="enumeration">LeftAlign</Alignment>
+              <AlignmentCharacter type="string">.</AlignmentCharacter>
+              <Leader type="string" />
+              <Position type="unit">10</Position>
+            </ListItem>
+          </TabList>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Footnote &gt; Paragraph" Name="Footnote &gt; Paragraph" LeftIndent="0">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Header1" Name="Header1" LeftIndent="0" PointSize="36">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Header2" Name="Header2" LeftIndent="0" PointSize="30">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Header3" Name="Header3" LeftIndent="0" PointSize="24">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Paragraph" Name="Paragraph" LeftIndent="0">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle> 
+    </RootParagraphStyleGroup>
+    <RootTableStyleGroup Self="pandoc_table_styles">
+      <TableStyle Self="TableStyle/Table" Name="Table" />
+    </RootTableStyleGroup>
+    <RootCellStyleGroup Self="pandoc_cell_styles">
+      <CellStyle Self="CellStyle/Cell" AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Name="Cell" />
+    </RootCellStyleGroup>
+  <Story Self="pandoc_story"
+      TrackChanges="false"
+      StoryTitle=""
+      AppliedTOCStyle="n"
+      AppliedNamedGrid="n" >
+    <StoryPreference OpticalMarginAlignment="true" OpticalMarginSize="12" />
+
+<!-- body needs to be non-indented, otherwise code blocks are indented too far -->
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header1">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>CHAPTER 5. Coloniality as an Attempt to Erase Other Ways of Living and Forms of Relating to our Bodies and Territories</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Joana Varón</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Summary</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; first &gt; Paragraph" NumberingContinue="false">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Colonization sustained itself also as an epistemic order that defines what and who is valuable, what and who is disposable. Under the idea of racial, ethnical and gender superiority the colonizer had a mechanism to self-legitimize exploitation, domination and destruction. This is the same logic operating today in the practices of datafication described in chapter 4. The result is a continuous attempt to subjugate or eradicate those that do not comply with the dominant order. Masked under a supposed technological neutrality, data colonization is actually working towards the epistemic invisibility of alternative forms of existence. Colonization, in all its forms, either criminalizes or depreciates cultures and practices from those who are seen as ‘the other’.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Before colonization, matriarchal societies were not rare among indigenous people, or gender dimensions were not seen as a power differential. Likewise, to many indigenous peoples gender was perceived as non-binary and sexuality was also not limited by heteronormativity. That was all attemptively erased by the ‘coloniality of gender’, overriding the more complex understandings of gender and sexuality, a process that continues via data categorizations today.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>The proposal of a densely datafied future is actually the business model of a very limited group of companies, lead by a homogeneous demography with a reduced perception of what life on Earth can be, which are globally deploying technologies of control, intertwined with a few governments, to promote an universalizing view of what the future should look like.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Coloniality also implies an attempt to control the production of subjectivities. Therefore, beyond the predatory extractivism and expropriation of territories, colonization is also focused on trying to dominate bodies and minds.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>As we have seen in the previous chapter, coloniality implies an attempt to control resources, labor, bodies, knowledge production systems, institutions, norms, social relationships, forms of authority, but also the production of subjectivities.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Quijano and Ennis, ‘Coloniality of power, Eurocentrism, and Latin America’.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Therefore, beyond the predatory extractivism and expropriation of territories, colonization is also focused on trying to dominate the bodies and minds of the people whose land is being expropriated. The colonizer burns or violates what is not valorized or understood by their world view and then criminalizes cultures and practices of what is seen as ‘the other’.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Frantz Fanon, The wretched of the earth, New York: Grove Press, 1968.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> It operates as a force that tries to erase what is different.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>In the case of Abya Yala (a territory today known as Latin America) and several territories from the African continent, ways of living that were different from the white catholic heteropatriarchal european were meant to be destroyed by the colonizer. In other words, colonization has violence embedded in its epistemology. People were taken from their lands and enslaved; sacred objects were stolen (to later compose collections of fancy museums far away from the descendants of the cultures they represent); ancient rituals and practices were prohibited, in an attempt to destroy powerful bonding that keep communities together; religiosity and other social practices were imposed; those seen as ‘the other’ were objectified and dehumanized to be killed, raped and subjugated by the conquerors that actually had just one powerful advantage: the monopoly and control of firearms, a technology of war.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>But in addition to gun power, the colonial order sustained itself also as an epistemic order that defines what and who is valuable, what and who is disposable. This order is a mechanism to self-legitimize exploitation and domination under the idea of racial, ethnic and gender superiority. The result of this order is the attempt to subjugate or eradicate those that do not comply with the dominant order, and the epistemic invisibility of alternative forms of existence. These asymmetric relations are sustained by the structures of power that remain until today.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Before colonization, matriarchal societies were not rare among indigenous people, or gender dimensions were not seen as a power differential. For instance, the Aymara are matriarchal societies in which women, among other things, are the ones managing trade and cash. Among the Quechua people, either women or men could become shamans, powerful healers respected by their communities, just as men and women were equally entitled to attend and participate in community assemblies. Even in the battlefield, some peoples would not differentiate into genders or sexes; the histories of the Iacamiabas, or of Clara Camarão, indigenous Potiguara from the Tupi people, also portray female-only groups of warriors resisting the invasion of Europeans. Going further, not even a binary perception of gender was perceived as universal. Some indigenous people in North America had five different genders: male, female, two-spirit male, two-spirit female, and what today we would call transgender, with transgender people seen as closer to Gods. Oyèrónké Oyêwùmí, a sociologist from Nigeria, goes further in the book </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>The invention of women</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, to affirm that gender is a category imposed by western culture onto the Ioruba people, more specifically the Oyó-Iorubá people, who in the pre-colonial period did not have gender as the basis for social hierarchy. Studying the iorubá language she states that it is exempted from gender relations and argues that it did not have the category ‘women’ to differentiate political power before the contact with colonizers. Social relations were the determinant for hierarchies, with seniority as the most important category.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Oyèrónké Oyewùmí, The Invention of Women, Minneapolis: University of Minnesota Press, 1997.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>That was all erased by the ‘coloniality of gender’', a term used by Maria Lugones</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>María Lugones, ‘The Coloniality of Gender’, in: Wendy Harcourt (ed) The Palgrave Handbook of Gender and Development, London: Palgrave Macmillan, 2016. https://doi.org/10.1007/978-1-137-38273-3_2</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> to expand Quijano's coloniality of power to include gender and race dimensions. According to her, colonization lead to the de-humanization of women of color and definition of white women as the opposite of the white man seen as fragile, domestic, weak, this rationality enabled the colonizer to sexual violence as means for domination.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Just as gender was perceived as non-binary among many indigenous people, commonly sexuality was also not limited by heteronormativity, and restricted to oposite-sex attraction. Analyzing letters from colonizers in the book </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>Gay indians in Brazil, untold stories of the colonization of indigenous sexualities</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, anthropologists Estevão Rafael Fernandes and Barbara Arisi, highlighted excerpts that describe indigenous women who took social positions of warriors and had another woman as a marital partner, stating that it was not an affront among their people: meaning that lesbian partners were common among Tupinambá people. But, paradoxically, while indigenous people were considered by the colonizers to be closer to nature, which pejoratively implied ‘not civilized’, their sexual practices would be judged as ‘against nature’, a narrative that would justify Jesuit control over their bodies.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Estevão Rafael Fernandes and Barbara M. Arisi, Gay Indians in Brazil: Untold Stories of the Colonization of Indigenous Sexualities, Springer Cham, 2017.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Therefore, discourses of lust, blasphemy and sodomy were used for controlling the Indigenous sexualities as a process for establishing colonial hierarchy, subordination, and domination.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Fernandes and Arisi, Gay Indians in Brazil: Untold Stories of the Colonization of Indigenous Sexualities.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>While racism, misogyny, or misogynoir (misogyny and racism addressed to black women),</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Moya Bailey, Misogynoir Transformed. Black Women’s Digital Resistance, NYU Press, 2021.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> sexism and even compulsory heteronormativity</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Adrienne Rich, ‘Compulsory Heterosexuality and Lesbian Existence’, Signs: Journal of Women in Culture And Society 5.4 (1980): 631–660. https://doi.org/10.1086/493756</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> are violences that were amplified with colonization, now they are being reinforced by data colonization.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Technology has always been the power differential for the colonizer, originally, gun power, and now computational and market power, are used to oppress and impose one particular culture, very often the culture of a white hetero cis male from some start-up in the North, once again a monoculture. So, colonialism resonating in digital helms also results in search engines showing lower-paid jobs to women; ads about babies or beauty standards that are only shown to those identified by social media platforms as women, as if they were the only ones entitle of care; AI systems that compile sensitive data on young girls and sell themselves as if they were a viable tool to predict teenage pregnancy, while exposing poor vulnerable girls; job hiring algorithms that show unfavorable outcomes for female job applicants; automatic filters that censor LGBTQIA and feminist content while promoting hate with higher visibility in social media; facial recognition technologies that have higher error rate for faces of black women and transgender people, or even that are conceived to dangerously force LGBTQIA people ‘out of the closet’ in harmful contexts; or other surveillance technologies being deployed to specifically target black communities, indigenous lands and land defenders. The list is long and continues growing.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>In a recent study entitled notmy.ai, about artificial intelligence systems being deployed by the public sector in Latin America, based on bibliographical review and also findings from the case-based analysis, Chilean thinker Paz Peña and I identified that some of these systems tend to be conceptualized under the following characteristics: surveillance of the poor; embedded racism; patriarchal by design; automation of neoliberal policies; lack of transparency; precarious labor and colonial extractivism.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Paz Peña and Joana Varon, Oppressive A.I.: Feminist Categories to Understand its Political Effects, notmy.ai, 2021.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> A framework of analysis that goes beyond the discourses of fairness, ethical or human-centric A.I. and seeks a holistic structure that considers power relations to question the idea of deploying these data intensive A.I. systems.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>For all these reasons, in datafied societies it is important to acknowledge the role of sociotechnical systems to continue to reproduce colonial epistemic violence and social control. Data cultures are systems of knowledge that are imposed from the epistemic order of the West</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Paola Ricaurte, ‘Data epistemologies, The Coloniality of Power, and Resistance’, Television and New Media, 20.4 (2019): 350–365.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> and contribute to reproducing racism, sexism, patriarchal heteronormativity and surveillance of communities vulnerabilized by the matrix of colonial domination through the production of data regimes. These data regimes constitute an epistemicide based on the annihilation of racial and linguistic diversity, imposition of heteronormative visions and reinforcement of a Western, patriarchal and capitalist world model. Data injustice is inextricably linked to systemic and epistemic violence resulting from the articulation between capitalism, colonialism and the patriarchal order.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Paola Ricaurte. ‘Ethics for the Majority World: AI and the Question of Violence at Scale’, Media, Culture &amp; Society, 44.4 (2022): 726–45.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>It is important to add that all these harmful results of data collection and data processing are not a matter of simply tuning databases against biases, or adding diversity policies to start-ups or Big tech companies. Though very important fights to have in the short term to mitigate harm, victories in these directions do not change the status quo of the overall picture: the existence of a very limited group of companies, lead by a homogeneous demography with a reduced perception of what life on Earth can be, which are globally deploying technologies of control, intertwined with a few governments. Both promote an universalizing view of what the future should look like: a very densely datafied future that continuously attempts to erase or subjugate ‘the other’ by automating oppression and maintaining an economic monopoly.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>But the proposal of a densely datafied future is actually their business plan, so this monoculture of thought could continue to hold its global monopolies. After all, they are the ones with the biggest and most spread infrastructure capable of collecting and processing huge amounts of data. ‘The others’ are now, or continue to be seen as the low-tech, the ones who ‘know nothing’, while the ones with big data centers are those who can diagnose, predict and sell solutions. But the tragic periodicity of femicides, police violence against of black youth, assassination of indigenous leaders, violence against LGBTQIA people, deforestation and illegal mining, land grabbing of indigenous lands… These are all facts that society, and particularly affected communities, have a lot of data about. If public policies do not respond properly to it, it is because there is a lack of political will, it is because the mainstream vision of development and the path of technology do not include these concerns as central. It is not a matter of lack of data.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Likewise, the climate crisis has been diagnosed with alarming data for decades, with very little actual change on the part of those most responsible for causing the problem. Even tech companies, which promise tech solutions to climate change, continue to be part of the problem by developing devices with programmed obsolescence, by being part of production chains responsible for chemical pollution and land conflicts due to illegal mining and e-waste, by increasing the energy and water consumption of data centers which are draining poor municipalities that won't gain much with all that data processing. Actually, these territories are more likely to suffer from periods of drought, as such extensive water consumption affects riverbeds and groundwater.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>It is never enough to remember that coloniality implies an attempt to control the production of subjectivities, which includes our notion of being, our hopes, visions and imaginaries of possible futures. Therefore, beyond the predatory extractivism and expropriation of territories, colonization is also focused on trying to dominate bodies and minds, so we ended up becoming part of their vision of the future. We need to be attentive, so we don't fall into the fallacy of intense datafication. What is at stake? Who is profiting? Whose ways of living are being erased? Indigenous leader, writer and activist, Ailton Krenak, whose work is constantly recalling that indigenous cosmologies departures from a vision of kinship among humans and other beings and elements of nature, in an attempt to reconnect us with that ancestral knowledge that was depreciated by colonization, remind us: ‘The rivers, these beings that have always inhabited the worlds in different forms, are the ones who suggest to me that if there is a future to be considered, it is ancestral, because it was already here’.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Ailton Krenak, Futuro Ancestral, Companhia das Letras, 2022.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+
+  </Story>
+  
+</Document>

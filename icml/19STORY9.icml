@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?aid style="50" type="snippet" readerVersion="6.0" featureSet="513" product="8.0(370)" ?>
+<?aid SnippetType="InCopyInterchange"?>
+<Document DOMVersion="8.0" Self="pandoc_doc">
+    <RootCharacterStyleGroup Self="pandoc_character_styles">
+      <CharacterStyle Self="$ID/NormalCharacterStyle" Name="Default" />
+      <CharacterStyle Self="CharacterStyle/Italic" Name="Italic" FontStyle="Italic">
+        <Properties>
+          <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
+        </Properties>
+      </CharacterStyle>
+      <CharacterStyle Self="CharacterStyle/Superscript" Name="Superscript" Position="Superscript">
+        <Properties>
+          <BasedOn type="object">$ID/NormalCharacterStyle</BasedOn>
+        </Properties>
+      </CharacterStyle> 
+    </RootCharacterStyleGroup>
+    <RootParagraphStyleGroup Self="pandoc_paragraph_styles">
+      <ParagraphStyle Self="$ID/NormalParagraphStyle" Name="$ID/NormalParagraphStyle"
+          SpaceBefore="6" SpaceAfter="6"> <!-- paragraph spacing -->
+        <Properties>
+          <TabList type="list">
+            <ListItem type="record">
+              <Alignment type="enumeration">LeftAlign</Alignment>
+              <AlignmentCharacter type="string">.</AlignmentCharacter>
+              <Leader type="string"></Leader>
+              <Position type="unit">10</Position> <!-- first tab stop -->
+            </ListItem>
+          </TabList>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Blockquote &gt; Paragraph" Name="Blockquote &gt; Paragraph" LeftIndent="10">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Footnote &gt; Paragraph" Name="Footnote &gt; Paragraph" LeftIndent="0">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Header1" Name="Header1" LeftIndent="0" PointSize="36">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Header3" Name="Header3" LeftIndent="0" PointSize="24">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Paragraph" Name="Paragraph" LeftIndent="0">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle> 
+    </RootParagraphStyleGroup>
+    <RootTableStyleGroup Self="pandoc_table_styles">
+      <TableStyle Self="TableStyle/Table" Name="Table" />
+    </RootTableStyleGroup>
+    <RootCellStyleGroup Self="pandoc_cell_styles">
+      <CellStyle Self="CellStyle/Cell" AppliedParagraphStyle="ParagraphStyle/$ID/[No paragraph style]" Name="Cell" />
+    </RootCellStyleGroup>
+  <Story Self="pandoc_story"
+      TrackChanges="false"
+      StoryTitle=""
+      AppliedTOCStyle="n"
+      AppliedNamedGrid="n" >
+    <StoryPreference OpticalMarginAlignment="true" OpticalMarginSize="12" />
+
+<!-- body needs to be non-indented, otherwise code blocks are indented too far -->
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header1">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>STORY 9. Between cleaning apps and the border: Roxy's story for Domestic Code in the flesh</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Kruskaya Hidalgo Cordero</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Kruskaya Hidalgo Cordero, Código Doméstico in the flesh. Relatos de trabajadoras en apps de limpieza, Ecuador: London School of Economics and Political Science, 2022. https://www.codigodomestico.com/pdf/CODIGO%20DOMESTICO%20in%20the%20flesh_Kruskaya%20Hidalgo.pdf</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <Br />
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Hidalgo Cordero, Kruskaya. Domestic Code in the Flesh. Stories of workers in cleaning services apps, Ecuador: London School of Economics and Political Science, 2022. https://www.codigodomestico.com/en/pdf/domestic_code_in_the_flesh.pdf</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>It has been 22 years since Roxy left Mexico City with a suitcase and crossed the border into the United States.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Roxy's story told here is part of a long term project called Domestic Code in the flesh. A militant research proposal that questions the hegemonic reading inscribed in the skin of which are the bodies that perform domestic work and under what parameters of performance and efficiency this work is organized. A space to imagine how we would like these apps to be and at the same time a counter-territory where paid domestic workers and those who work on this project connect outside the algorithmic mechanism of the apps.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> She escaped the structural violence, the narco, the bad governments. She decided to leave with her then boyfriend –who is now her husband– after he was kidnapped in Mexico. They migrated out of fear that something like that would happen again. They came to California and stayed in Los Angeles, where they made their new home. Roxy is 41 years old, has a 21-year-old daughter and 18-year-old twins. She has worked in cleaning and property maintenance since she arrived in California, through word-of-mouth recruitment, various agencies, web advertising sites and different </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>apps</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>. Her two decades of work anecdotes show the changes in the U.S. care labor market and, above all, the technification and capitalist competition against paid work in the home.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>One of the first experiences she recounts in the cleaning field was between 2004 and 2007, when she worked for a beach house cleaning agency in Venice Beach. One day she arrived with another colleague to clean a house and while dusting the kitchen shelves, she found a gun. They were both scared out of their wits. ‘I opened the spoon drawer and found a gun. So, I grab it and go and lock the door. There was only one door to get in and out. I told my partner, &quot;we have to lock it because they are going to come for it&quot; and we got scared’, she says.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Roxy then called the agency supervisor and tried to explain the situation: ‘I spoke little English and she spoke little Spanish, so I told her that there was a </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>gun</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Please note that my conversations with Roxy have been in Spanish. However, when she speaks, she uses certain words and phrases in English. In the words of Gloria Anzaldúa (1987), this reveals the language of the borderlands, a working-class English, a slang English, a Mexican Spanish, a Chicano Spanish, a Tex-Mex. In short, the complexity of migrant communities and the myriad of languages they speak. For this reason, I italicize all the words he says in English in his original account.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> in an </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>apartment</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>’. The supervisor told her to leave the gun in the drawer and to leave the place immediately. ‘That's when I said “no more, I don't want this job anymore, I don't want to put my life at risk, and for so little money&quot;’. So she stopped working with the cleaning agency and soon after, she joined Craigslist – a classified ads website. She worked with Craigslist for more than eight years.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Moving into Roxy's experiences in the platform economy, she has worked with several different cleaning </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>apps</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, including Jan-Pro and Care. In none of the </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>apps</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> Roxy has worked with can the paid domestic workers rate the clients, nor can they leave feedback for them. However, clients do rate them and do leave comments on their profiles, which are public. For Roxy, this way of rating </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>apps</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> is unfair. In addition, clients often rate them poorly for subjective reasons and prejudices, such as their nationality, and not because of the work they do.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>‘I would like to rate the clients. One would also put little stars on them and say “watch out for this person because this happened to me with her”’. Roxy insists on this because the </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>apps</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> do not allow paid domestic workers to be in contact with each other. So they have no way of alerting others if a client is harassing, discriminating, racist, and so on. Therefore, Roxy demands that they, as workers, should also be able to leave comments and rate them.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>This reveals the unethical practices of these platforms, where control and inequality are found in the very design of the application. But, moreover, where the personal information of workers such as their age, their photograph and their name are datafied, extracted and commercialized. An economy based on the extraction of data where –it is redundant– the data flows of workers, in particular of migrant and irregularized women, end up in the hands of certain countries and certain companies.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>******</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Since the beginning of the 21st century, the crisis of social reproduction has triggered a gigantic demand from the Global North for care workers from the Global South, mainly women. According to the U.S. Bureau of Labor Statistics, 88% of domestic workers, caregivers and nannies are women. Of these, 49% are Latinas. In other words, 1 out of every 2 domestic workers in the U.S. are Latinas. In cleaning apps this trend continues, however, this does not mean that Spanish-speaking paid domestic workers have the language barriers solved by their overrepresentation in the sector.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>In fact, one of the most common barriers faced by Roxy and many migrant workers is language. Their command of English is sometimes beginner or intermediate and this creates tensions with clients.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Blockquote &gt; Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>They see us as ignorant because of the accent, because you don't speak English very well. Sometimes they [the clients] don't speak Spanish and they get frustrated because they think you don't understand them or something... I understand a little bit of English, but my sister didn't go to school here or anything, and she doesn't understand anything. With her it's more of a problem, so I tell her to take a picture if there's something wrong and I send a message to the client and tell her what's wrong and so on.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>These barriers are often also discrimination, racism, xenophobia. They are not only difficulties, they are pains. It is the encounter and disagreement between various forms of oppression; it is the incarnation of </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>border subjectivities in the</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> words of the Chicana Gloria Anzaldúa.</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>Gloria Anzaldúa, Borderlands/La Frontera: The New Mestiza. San Francisco: Aunt Lute Book Company, 1987.</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>On the other hand, some cleaning </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>apps</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> in the U.S. require workers to be citizens. Others ask for residency and others for a social security number. But the control is not very strict, the need to work is pressing and there are many irregular workers working with the </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>apps</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>. As the slogan says, ‘we are everywhere’ and </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>migrant women</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> are in the </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>apps</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> as well.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>The Jan-Pro platform functions as a digital job marketplace where cleaning service providers and seekers meet. In other words, Roxy is considered a cleaning service provider who has her own business. She has a profile on the app where she promotes her business. To open it, she had to make a one-time payment. ‘In Jan-Pro you start with $900, it's like a down payment. They say it's not a franchise, it's 900 dollars as a down payment according to, but they keep that, they don't give it back. It's a, oh, I don't know how they said, the word... a deposit’.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>In addition to the non-refundable deposit, Roxy tells us that in Jan-Pro one can invest money to get better houses or offices to clean. A sort of auction to compete for a place to be cleaned on a monthly basis, on a ‘permanent’ basis.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>That is, many of these platform companies offer places with large cleaning areas, such as offices and houses of more than 300m</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Superscript">
+    <Content>2</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>. Then, if the workers ‘win’ that offer, they must hire more people. In other words, the </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>apps</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> do not assign them cleaning shifts, but they must compete to win a job. In most cases, they subcontract to people in the process of regularization or irregularized in order to have competitive prices and win the bids. In addition, the compañeras hire their relatives, people from their community, and other migrant people to lend them a hand. ‘The </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>app</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> says that if you need to hire people to help you, they have to be legal in this country, so you get into trouble because it is not true. I, for example, am just in the process of arranging it’.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Roxy's dream is to have her own </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>app</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> business. An </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>app</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> that pays a fair price, provides accident insurance for workers, cares about the well-being of co-workers and thinks about the cleaning products used at work. ‘I would like to have my own </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>app</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> and help maids to get </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>insured</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> and get jobs. Make nice </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>flyers</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, nice </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>business cards</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> and have letters of recommendation. Everything so they don't struggle like I struggled, so they don't suffer so much!’</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Roxy mentions that the products that clients have for cleaning offices and homes, most of the time, are very toxic. The use of these products affects the health of the workers and also the environment. ‘I want to use liquids that don't harm us or the customer. What I always tell them when I go to an office and I see commercial liquids is &quot;</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>oh, to be honest</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>, to be honest, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>I don't like this kind&quot;</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>. Sometimes I ask for </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+    <Content>baking soda</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> and vinegar’.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Unlike the other apps in the region, Roxy faces a much more tech-driven platform economy in the United States. Where the idea of ‘be your own boss’ is stretched to the point of ‘have your own business within the app’ or ‘be your own sole proprietorship’. Despite this, Roxy dreams of having her own app, an app that helps paid domestic workers to get decent jobs, accompany them in their regularization processes, have labor contracts, social security, and also have cleaning implements that do not harm the health of workers and nature.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Paid domestic workers within these apps dare to imagine other possible ways of working with these platforms. They generate ingenious tactics to resist the datafication of care work and algorithmic control: taking pictures before cleaning to demonstrate their work, using their migrant network to translate into English, relying on the community to hire irregularized people. Roxy dreams, imagines, envisions other possible technologies for paid housework. It is there, in ‘the app we dream of’</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle" Position="Superscript">
+    <Footnote>
+      <ParagraphStyleRange>
+        <CharacterStyleRange>
+          <Content><?ACE 4?></Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+      <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>	</Content>
+        </CharacterStyleRange>
+        <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+          <Content>&quot;The one we dreamed of&quot; was an exercise in imagining and drawing that Roxy did as part of a workshop at the Institute for Popular Education of Southern California (IDEPSCA).</Content>
+        </CharacterStyleRange>
+      </ParagraphStyleRange>
+    </Footnote>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> that she enunciates her resistance to datafication. It is a latent desire to deactivate the hegemonic and dehumanizing algorithms from the migrant collective body itself.</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+
+  </Story>
+  
+</Document>

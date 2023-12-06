@@ -16,17 +16,17 @@ Keywords:   50 keywords for search and indexing
 Rights: CC BY-NC 4.0
 ...
 
----
-subtitle: A practical intervention
-title: '[]{#_heading=h.gjdgxs .anchor}RESISTING DATA COLONIALISM '
----
 
 
-&lt;div style="page-break-after: always"&gt;&lt;/div&gt;
+# Resisting data colonialism 
+## A practical intervention
+
+
+<div style="page-break-after: always"></div>
 
 # Colophon
 
-INC Theory on Demand \#45\
+INC Theory on Demand #45
 **Resisting Data Colonialism – A Practical Intervention**
 
 **Authors:** members and allies of the Tierra Común Network, including
@@ -37,15 +37,15 @@ Hidalgo Cordero, Nai Lee Kalema, Alejandro Mayoral, Bruno Moreschi,
 Teresa Numerico, Gabriel Pereira, Julian Posada, Paola Ricaurte Quijano,
 Pamela Ramírez Martínez, Anita Say Chan, Joana Varón, Chamee Yang
 
-**Cover Design:** Katja van Stiphout\
-**Production:** Agnieszka Antkowiak and Erica Gargaglione\
-\
-Published by the Institute of Network Cultures, Amsterdam, 2022\
-ISBN XXXX\
-\
-**Contact** Institute of Network Cultures\
-Amsterdam University of Applied Sciences (HVA)\
-Email: [*info@networkcultures.org*](mailto:info@networkcultures.org)\
+**Cover Design:** Katja van Stiphout
+**Production:** Agnieszka Antkowiak and Erica Gargaglione
+
+Published by the Institute of Network Cultures, Amsterdam, 2024
+ISBN XXXX
+
+**Contact** Institute of Network Cultures
+Amsterdam University of Applied Sciences (HvA)
+Email: [*info@networkcultures.org*](mailto:info@networkcultures.org)
 Web: [*www.networkcultures.org*](http://www.networkcultures.org/)
 
 ![](imgs/INC-logoCMYK.png)

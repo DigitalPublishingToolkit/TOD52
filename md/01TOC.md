@@ -18,3 +18,13 @@ Rights: CC BY-NC 4.0
 
 
 # TABLE OF CONTENTS
+
+<a href='ch003.xhtml'>Acknowledgments</a>
+<a href='ch004.xhtml'>Introduction</a>
+<a href='ch005.xhtml'>FRAMEWORK FOR RESISTANCE</a>
+<a href='ch006.xhtml'>CHAPTER 1. Data colonialism is not a metaphor: Remembering colonialism and why it matters in the digital ecosystem</a>
+<a href='ch007.xhtml'> </a>
+<a href='ch008.xhtml'> </a>
+<a href='ch009.xhtml'> </a>
+<a href='ch010.xhtml'> </a>
+<a href='ch011.xhtml'> </a>

@@ -45,7 +45,7 @@ ISBN XXXX
 
 **Contact** Institute of Network Cultures
 Amsterdam University of Applied Sciences (HvA)
-Email: [*info@networkcultures.org*](mailto:info@networkcultures.org)
-Web: [*www.networkcultures.org*](http://www.networkcultures.org/)
+Email: [info@networkcultures.org](mailto:info@networkcultures.org)
+Web: [www.networkcultures.org](http://www.networkcultures.org/)
 
 ![](imgs/INC-logoCMYK.png)

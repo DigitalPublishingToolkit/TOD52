@@ -26,7 +26,7 @@ Rights: CC BY-NC 4.0
 
 # Colophon
 
-INC Theory on Demand #45
+INC Theory on Demand #52
 **Resisting Data Colonialism – A Practical Intervention**
 
 **Authors:** members and allies of the Tierra Común Network, including

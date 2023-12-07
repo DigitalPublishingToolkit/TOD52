@@ -1,11 +1,14 @@
 
+# RESISTING DATA COLONIALISM
 
 
-&lt;div style="page-break-after: always"&gt;&lt;/div&gt;
+
+<div style="page-break-after: always"/>
 
 # Colophon
 
-INC Theory on Demand \#45\
+INC Theory on Demand \#52<br/>
+
 **Resisting Data Colonialism – A Practical Intervention**
 
 **Authors:** members and allies of the Tierra Común Network, including
@@ -16,21 +19,92 @@ Hidalgo Cordero, Nai Lee Kalema, Alejandro Mayoral, Bruno Moreschi,
 Teresa Numerico, Gabriel Pereira, Julian Posada, Paola Ricaurte Quijano,
 Pamela Ramírez Martínez, Anita Say Chan, Joana Varón, Chamee Yang
 
-**Cover Design:** Katja van Stiphout\
-**Production:** Agnieszka Antkowiak and Erica Gargaglione\
-\
-Published by the Institute of Network Cultures, Amsterdam, 2022\
-ISBN XXXX\
-\
-**Contact** Institute of Network Cultures\
-Amsterdam University of Applied Sciences (HVA)\
-Email: [*info@networkcultures.org*](mailto:info@networkcultures.org)\
-Web: [*www.networkcultures.org*](http://www.networkcultures.org/)
+**Cover Design:** Katja van Stiphout<br/>
+**Production:** Agnieszka Antkowiak and Erica Gargaglione<br/>
 
-![](imgs/INC-logoCMYK.png)
+Published by the Institute of Network Cultures, Amsterdam, 2023<br/>
+ISBN XXXX<br/>
+
+**Contact:** Institute of Network Cultures\
+Amsterdam University of Applied Sciences (HvA)<br/>
+Email: [*info@networkcultures.org*](mailto:info@networkcultures.org)<br/>
+Web: [*www.networkcultures.org*](http://www.networkcultures.org/)<br/>
+
+<img src="imgs/INC-logoCMYK.png" alt="logo1" style="width:280px;"/> <img src="imgs/tierracomunlogo.png" alt="logo1" style="width:150px;"/>
 
 
 # TABLE OF CONTENTS
+
+<a href='ch004.xhtml'>**ACKNOWLEDGEMENTS**</a><br/>
+
+<a href='ch005.xhtml'>**INTRODUCTION**</a>
+<br/>There is something wrong with data extraction<br/>*Nick Couldry*<br/>
+	
+##FRAMEWORK FOR RESISTANCE	
+<a href='ch007.xhtml'>**CHAPTER 1.**</a>	<br/>  Data colonialism is not a metaphor: Remembering colonialism and why it matters in the digital ecosystem<br/>*Alejandro Mayoral Banos* <br/>
+
+<a href='ch008.xhtml'>**CHAPTER 2**.</a>
+<br/>Intersections of Data Power: Unmasking the Nexus of Data Colonialism and Digital Racial Capitalism<br/>
+*Nai Lee Kalema*<br/>
+
+<a href='ch009.xhtml'>**CHAPTER 3.**</a><br/> Science and colonialism: The violence of abstraction <br/>
+*Teresa Numerico*<br/>
+
+<a href='ch010.xhtml'>**CHAPTER 4.**</a> <br/> Data colonialism now: Harms and consequences	<br/>
+*Gabriel Pereira & Nick Couldry*<br/>
+
+<a href='ch011.xhtml'>**CHAPTER 5.**</a><br/> Coloniality as an attempt to erase other ways of living and forms of relating to our bodies and territories<br/>
+*Joana Varón*<br/>
+
+##STORIES OF RESISTANCE	
+<a href='ch013.xhtml'>**STORY 1.**</a><br/>
+“We are struggling to survive”: Resistance against mining in Acacoyagua, Chiapas<br/>
+*Jes Ciacci (Sursiendo)*<br/>
+
+<a href='ch014.xhtml'>**STORY 2.**</a><br/>
+No to the data center! Resistance and artivism against Google in Cerrillos<br/>
+*Pamela Ramírez M.*<br/>
+
+<a href='ch015.xhtml'>**STORY 3.**</a><br/>
+Resistance storytelling: Anti-Surveillance campaign in Recife, Brazil<br/>
+*Kainen Bell*<br/>
+
+<a href='ch016.xhtml'>**STORY 4.**</a><br/>
+Futuring Data for Eco-Social Health<br/>
+*Community Oceans Futures Group  at Simon Fraser University in Vancouver, Canada*<br/>
+
+<a href='ch017.xhtml'>**STORY 5.**</a><br/>
+When workers exploit the platforms<br/>
+*Julian Posada*<br/>
+
+<a href='ch018.xhtml'>**STORY 6.**</a><br/>
+Becoming a loss: On the resolution (or not) of conflicts in autonomous communities<br/>
+*Stefania Acevedo*<br/>
+
+<a href='ch019.xhtml'>**STORY 7.**</a><br/>
+Resisting data colonialism and digital surveillance in a Midwestern classroom: Exploring community-driven alternatives to automated license plate readers<br/>
+*Chamee Yang, Gowri Balasubramaniam, Clara Belitz and Anita Say Chan*<br/>
+
+<a href='ch020.xhtml'>**STORY 8.**</a><br/>
+Resisting platform scams in Brazil<br/>
+*Abel Guerra, Gabriel Pereira, Rafael Grohmann, Ludmila Costhek Abílio, Bruno Moreschi, and Amanda Jurno*<br/>
+
+<a href='ch021.xhtml'>**STORY 9.**</a><br/>
+Between cleaning apps and the border: Roxy's story for Domestic Code in the flesh<br/>
+*Kruskaya Hidalgo Cordero*<br/>
+
+
+##A CALL TO ACTION	
+<a href='ch023.xhtml'>**RESISTING DATA COLONIALISM: What Lies Ahead**</a><br/>
+*Paola Ricaurte Quijano*<br/>
+
+<a href='ch024.xhtml'>**10 WAYS TO RESIST DATA COLONIALISM**</a> <br/>
+
+<a href='ch025.xhtml'>**LEXICON OF RESISTANCE**</a><br/>
+	
+<a href='ch026.xhtml'>**REFERENCES**</a><br/>
+
+<a href='ch027.xhtml'>**ABOUT THE AUTHORS**</a><br/>
 
 
 
@@ -2807,6 +2881,8 @@ understood by the public.
 
 ![Image 1. Danger](imgs/story201.jpg)
 
+<br/>
+
 A key message we communicated was the danger of the Google project
 (Image 1). What did we mean by 'danger'? If the data center was built,
 it could mean that those of us who live in Cerrillos would have to
@@ -2817,6 +2893,8 @@ extractivism of water resources. We also appeal to other water struggles
 in Chile to raise awareness.  
 
 ![Image 2. The water should be protected.](imgs/story202.png)
+
+<br/>
 
 We resorted to all forms of struggle. One format we used was the
 'chaconeo', which consists of making posters with some available paper
@@ -2868,6 +2946,8 @@ the skull, we developed other visual concepts. One of them appealed to a critiqu
 ![Image 3. No to the data center! Resistance and artivism against Google
 in Cerrillos](imgs/story203.jpg)
 
+<br/>
+
 We represented water in a female body, enclosed and chained (Image 3).
 Thus, we sought to present water as private and subject to abuses and
 violations despite being a natural resource. This image evoked the
@@ -2890,6 +2970,8 @@ not refer to, such as electromagnetic contamination in Chile or the
 content of the data that would be stored in our commune.
 
 ![](imgs/story204.jpg)
+
+<br/>
 
 
 # STORY 3. Resistance storytelling: Anti-Surveillance campaign in Recife, Brazil
@@ -2914,9 +2996,9 @@ was concerned it could happen to me as well.
 City of Recife wants to install 108 facial recognition cameras around
 the city and the need to prevent its acquisition, translated to English
 via google translate.
-(https://www.semcameranaminhacara.meurecife.org.br/)
-](imgs/Image 1_No Camera in my Face Campaign_.png)
+(https://www.semcameranaminhacara.meurecife.org](imgs/story3Image1.png)
 
+<br/>
 
 Surprisingly, one year later while scrolling on Instagram, I learned
 about a local Brazilian anti-surveillance campaign titled ‘No Camera in
@@ -2967,8 +3049,9 @@ implementation of a Facial Recognition System in the City of Recife?”
 and lists risks of Racism, Transphobia, Persecution of activists and
 social movements, and Data Protections and Privacy, translated to
 English via google translate.
-(https://www.semcameranaminhacara.meurecife.org.br/)
-](imgs/Image 2 _No Camera in my Face Campaign_.png)
+(https://www.semcameranaminhacara.meurecife.org](imgs/story3Image2.png)
+
+<br/>
 
 A common narrative used to convince communities to buy into using facial
 recognition cameras are that they will reduce crimes, improve public
@@ -3038,9 +3121,9 @@ cameras would not be activated until there was a regulation policy made.
 the campaign happen” and lists the collaborating partners including
 IP.rec, ANEPE, LAVITS, CDPH, and Rede Justiça Criminal, NATRAPE, and AB
 Pernambuco, translated to English via google translate.
-(https://www.semcameranaminhacara.meurecife.org.br/)
-](imgs/Image 3 _No Camera in my Face Campaign_.png)
+(https://www.semcameranaminhacara.meurecife.org](imgs/story3Image3.png)
 
+<br/>
 
 This was difficult news for the campaign, but it has not stopped them.
 An organizer mentioned that their efforts slowed afterwards due to
@@ -3191,7 +3274,7 @@ then uploaded to a central ‘citizen science’ repository through an App
 called Ocean Swell.[^14STORY4_2] This app uses standardized categories to
 tabulate the trash found in shoreline ecosystems.
 
-The result is a longitudinal North American database of human generated
+The result is a longitudinal North American database of human-generated
 marine debris. This data has been successfully mobilized to advocate for
 new marine protected areas, bans on single-use plastics, and Extended
 Producer Responsibility policies.
@@ -3255,7 +3338,9 @@ policy interventions. But people’s connection to trash – their sense of
 shock or their creative observations – are lost in the process.
 
 ![Figure 1. Data Activation Gaps (Concept Katherine Reilly and Melanie
-Vidakis, illustration Jihyun Park)](imgs/01Book_Chapter_Image-1-01.jpg)
+Vidakis, illustration Jihyun Park)](imgs/story4img1a.jpg)
+
+<br/>
 
 When we ask volunteers to do the work of collecting data about ‘trash’ -
 when we frame the problem as one in which the ocean and marine debris
@@ -3275,7 +3360,9 @@ volunteers to imagine their bodies as the ocean, and put the garbage
 be affected if they had garbage in their own personal ecosystem.
 
 ![Figure 2. What if your body was the Ocean? (Concept Javier Fernandez,
-illustration Jihyun Park)](imgs/02Book_Chapter_Image-02.jpg)
+illustration Jihyun Park)](imgs/story4img2a.jpg)
+
+<br/>
 
 Ironically this is not a metaphor! Recent research has found
 microplastics in human *placentas*, and research has also shown that
@@ -3326,7 +3413,9 @@ approach becomes the foundation for building meshworks of knowing how to
 rebuild direct ties between people and their environment.[^14STORY4_7],[^14STORY4_8]
 
 ![Figure 3. Meshworks as alternative forms of Ecosystem Knowledge (Concept
-and illustration Jihyun Park)](imgs/03Book_Chapter_Image-04.jpg)
+and illustration Jihyun Park)](imgs/story4img3a.jpg)
+
+<br/>
 
 Ultimately, in doing this work we hope to reposition data as a
 generative and liberating *action*, rather than as a *form* of capture
@@ -3339,7 +3428,7 @@ design and creativity as tools to help us think *impulsively* –that is
 with passion, desire, intuition and inclination– about our relationship
 to the health of the ocean. We plan to draw on futuring and speculative
 design to help participants in shoreline cleanups imagine a world free
-of human generated marine debris.
+of human-generated marine debris.
 
 
 [^14STORY4_1]: The Community Oceans Futures Group at Simon Fraser University
@@ -3644,6 +3733,8 @@ collectivity, but not of horizon, that I carry with me and share it with
 others because where we learn to lose there is also resistance.
 
 ![Figure 1. Rancho Electrónico's first venue in the warehouse it shared with Cráter Invertido and Furia en las Calles, 2013.](imgs/01fachada.jpg)
+
+<br/>
 
 
 [^16STORY6_1]: Dicidente Radio, ‘La Zona Autónoma Makhnovtchina (ZAM)’, Indy
@@ -5633,4 +5724,55 @@ Voces Indígenas, 2014, (31–46).
 Velasco, Juan Carlos. ‘Revitalizing democracy through civil
 disobedience’, *Unisinos Journal of Philosophy* 17.2 (2016): 111–120.
 doi:10.4013/fsu.2016.172.04
+
+
+
+# ABOUT THE AUTHORS
+
+
+**Abel Guerra** is a PhD Candidate in Media and Communications at the London School of Economics and Political Science. His current research focuses on the epistemic and infrastructural dimensions of platformisation, with afocus on Uber and the production of spatial knowledge. He holds a master’s degree in Media and Communicationfrom Universidade Federal de Minas Gerais Brazil (PPGCOM/UFMG), where investigated algorithmic labour through Uber’s surge pricing. His current research is funded by the London Arts and Humanities Partnership (LAHP/AHRC).  
+
+**Alejandro Mayoral Baños** is an academic and activist, who currently is working in organizations in Mexico and Canada on the implementation of participative projects for/with/alongside indigenous peoples. He holds a PhD from the Joint Program in Communication and Culture run by York University and Ryerson University in Toronto. His research focusses in decolonial computing and digital decoloniality, and crosses various areas of knowledge such as digital humanities, indigenous media, the indigenization of software, indigenous data sovereignty and decolonial infrastructure. He is the founder of the initiatives Indigenous Friends in Canada and Magtayaní in Mexico.
+
+**Amanda Jurno** has a PhD and Master's degree in Communication from the Postgraduate Program in Communication at the Federal University of Minas Gerais, and also a BA in Communication with an emphasis in Journalism. Has been working as lato sensu specialization courses professor, mainly related to scientific research and critical thinking about technologies. Researcher and member of the Communication, Algorithms and Digital Technologies Study Group (GECAT – from the Getúlio Vargas Foundation); and the Arts and Artificial Intelligence Group (GAIA from C4AI/InovaUSP). Works in the free knowledge movement and currently is the Education and Scientific Dissemination Manager at Wiki Movimento Brasil.
+
+**Anita Say Chan** is an Associate Professor in Information Sciences and Media Studies at the University of Illinois, Urbana-Champaign, where she also directs the Community Data Clinic and co-leads the Just Infrasrcutures Initiative (http://communitydata.illinois.edu/). Her first book the competing imaginaries of global connection and information technologies in network-age Peru, Networking Peripheries: Technological Futures and the Myth of Digital Universalism was released by MIT Press in 2014. Her second book, Refusing Predatory Data: Dissident Futures from Eugenics to Big Tech is forthcoming with University of California Press. 
+
+**Bruno Moreschi** is a researcher and artist with projects on the arts and technology, focused on decoding these fields, revealing their hidden practices. PhD in Arts at State University of Campinas with exchange at University of Arts of Helsinki. He is a researcher at the CAD+SR and in the Decay without mourning project: future thinking heritage practices. Projects recognized by ZKM, Van Abbemuseum, São Paulo Art Biennial, Cambridge University and Bauhaus Fellowship. Moreschi has extensive experience in centers for advanced studies such as Collegium Helveticum (ETH, University of Zurich, ZHdK) and LIAS Leuphana University (2024). www.brunomoreschi.com
+
+**Chamee Yang** (she/her/hers) is an Assistant Professor of Communication at Seoul National University in South Korea, and an affilite of Community Data Clinic (CDC) at the University of Illinois at Urbana-Champaign. Her scholarly inquiry focuses on the history and politics of datafication, infrastructure development, and global regime of “smartness.” Her work critically examines these themes mostly in Asian context, aiming to understand the cultural and historical drivers behind persistent mythical narratives about technological futures. Chamee is also dedicated to community partnership research and community-centered education through her teachings on critical data and information studies.
+
+**Clara Belitz** is a doctoral student in Information Science at the iSchool at the University of Illinois Urbana-Champaign. Her research focuses on algorithmic justice, integrating social and technical approaches to issues of equity in computing. She is broadly interested in AI ethics, how we incorporate social identity into predictive systems, and the epistemological assumptions of computing. 
+
+**Community Oceans Futures Group** at Simon Fraser University (SFU) is an interdisciplinary collaboration between scholars and community members studying the relationship between knowledge production, design and post-human ontologies.  In practical terms, this means that we are rethinking what it means to ‘know’ or ‘relate to’ the world around us.  Our current project focuses on reimagining how people relate to human debris in marine ecosystems.  The group consists of Rachel Horst, Jihyun Park, Dr. Katherine Reilly, Dr. Gillian Russell, Ryland Shaw and Melanie Vidakis.  We are also working with Oscar Chu, Sunho Chung, Javier Fernandez, Maia Puyat, Jaddie Tan, and Xiao Wei from Vancouver’s Centre for Digital Media (CDM).
+
+**Gabriel Pereira** is Assistant Professor in AI and Digital Culture at the University of Amsterdam. His research focuses on critical studies of data, algorithms, and digital infrastructures, particularly those of computer vision. He prizes research methods are collaborative and practice-based, including artistic interventions and critical making. He is @gabrielopereira@aoir.social on Mastodon. www.gabrielpereira.net.
+
+**Gowri Balasubramaniam** is a designer, researcher and illustrator, pursuing a Ph.D in Information Science at the University of Illinois Urbana-Champaign. Gowri is interested in design research, strategy, and human systems. Gowri is keen on nurturing experiences integrating the environment as a dynamic entity challenging one's process instead of being an inactive backdrop.
+
+**Jes Ciacci** is co-founder and current coordinator of Sursiendo. Accompanying digital care and free software with social and territorial defense organizations since 2011. Dedicated to inhabiting/thinking/making feminist technologies and their intersection with environmental justice. Graduate in Narrative Practices, she practices curiosity as a method of learning and research with situated and community approaches. She is also the Membership Coordinator of the technology cooperative May First, a stubborn believer in the hacker ethic, collective making and spaces of peer-to-peer exchange.
+
+**Joana Varon** is Executive Directress and Creative Chaos Catalyst at Coding Rights, a women-run organization working to expose and redress the power imbalances built into technology and its application, particularly those that reinforce gender and North/South inequalities. Former Technology and Human Rights Fellow at the Carr Center for Human Rights Policy from Harvard Kennedy School and alumni to the Berkman Klein Center for Internet and Society at Harvard University to Mozilla Foundation, as former Media Fellow, she is co-creator of several creative projects operating in the interplay between activism, arts and technologies, such as transfeministech.org, cartografiasdainternet.org, chupadados.com, #safersisters, Safer Nudes, protestos.org, Net of Rights and freenetfilm.org.
+
+**Julián Posada** is an Assistant Professor of American Studies and a member of the Yale Law School’s Information Society Project and the Yale Institute for Foundations of Data Science. His research integrates theories and methods from information science, sociology, and human-computer interaction to examine how technology is developed and used within various historical, cultural, and social contexts. 
+
+**Kainen Bell** is a Ph.D. student in Information Sciences at the University of Illinois at Urbana-Champaign. His research uncovers algorithmic biases and follows the work of digital rights activists and organizers of anti-surveillance campaigns in Brazil. Kainen’s goal is to learn how Afro-Brazilian communities collaborate to resist and prevent the abuse of surveillance technologies in their communities. He holds a Bachelor's Degrees in Social Work and Business Administration from the University of Washington in Seattle, and a Masters Degree in Social Work from Columbia University in New York. Prior to his PhD, Kainen completed a Fulbright Research Fellowship in Brazil.
+
+**Kruskaya Hidalgo Cordero** is an Ecuadorian feminist researcher, activist and unionist. She hold a MA in Gender Studies from the Central European University (CEU). Kruskaya is the co-founder of the Platform Observatory Ecuador, she is a Senior Fellow at the Atlantic Institute, and she is part of the advisory board of Fairwork. Also, Kruskaya is member of Tierra Común and the Platform Work Inclusion Living Lab. Currently, she is a field organizing specialist at the Solidarity Center in Mexico. 
+
+**Ludmila Costhek Abílio** is a sociologist with a focus on labor studies. Currently, she is a researcher at the Institute of Advanced Studies at the University of São Paulo and a visiting professor in the Sociology Graduate Program at the State University of Campinas. She is also an affiliated researcher with the Data and Society Institute. For over 20 years, she has been investigating the relationships between informal labor, socially invisible work, technological development, and contemporary forms of capitalist exploitation and accumulation.she has published a book and numerous articles on the theme of the uberization of work.
+
+**Nai Lee Kalema** is a PhD Candidate in Innovation and Public Policy at the UCL Institute for Innovation and Public Purpose. Nai’s research looks at the global political economy of digital transformation, specifically looking at global digital transformation policy initiatives, digital public infrastructures, and the emergence of digital-era governments. Nai is a member of Tierra Común, ESRC Digitial Good Network, and D-Econ: Decolonising and Diversifying Economics group. Nai holds a Master’s concentrating in International Relations and a Postgraduate Certificate in Social Justice from Harvard University, and a Bachelor of Arts from George Washington University.
+
+**Nick Couldry** is a sociologist of media and culture. He is Professor of Media Communications and Social Theory at the London School of Economics and Political Science, and since 2017 a Faculty Associate at Harvard’s Berkman Klein Center for Internet and Society. Nick is also the co-founder of the Tierra Común network of scholars and activists. He is the co-author (with Ulises Ali Mejias) of The Costs of Connection (Stanford University Press, 2019) and Data Grab: The New Colonialism of Big Tech and how to Fight Back (Penguin 2024).
+
+**Pamela Ramírez Morales** is a photographer and cultural manager, as an artivist she participates in different collectives, feminist, environmental and human rights, currently working in the Community Museum of Human Rights and Memory site ex Clinica Santa Lucia, her work can be found @domowowitralwarriache @cerrilleras @aries_pamela @canaltv.cvc @memoriaexclinicasantalucia
+
+**Paola Ricaurte Quijano** is an associate professor in the Department of Media and Digital Culture at Tecnológico de Monterrey, a faculty associate at the Berkman Klein Center for Internet & Society at Harvard University, and a co-founder of the Tierra Común network. She leads the Latin American and Caribbean hub of the Feminist AI Research Network, co-leads the Communication, Cultures, and Politics working group at CLACSO, and participates as an expert in the Responsible AI working group at the Global Partnership on Artificial Intelligence (GPAI).
+
+**Rafael Grohmann** is an assistant professor of media studies with focus on critical platform studies at the University of Toronto. He is leader of DigiLabour Initiative and co-director of Critical Digital Methods Institute. Rafael is researcher of Fairwork and Platform Work Inclusion Living Lab projects. He is also one of the editor-in-chief of Platforms & Society journal. 
+
+**Stefanía Acevedo** is a philosopher interested in collaborative work and autonomous movements. She is currently studying for a PhD in Philosophy at UNAM. She is the author of the book El hacktivismo y la cuestión de la técnica (2020). She was part of the collective translation of Militancia Alegre (2022) by Nick Montgomery and carla bergman, for which she also wrote an Epilogue. He collaborates with the Cooperativa Cráter Invertido and Radio Tropiezo.
+
+**Teresa Numerico** is Associate Professor of Philosophy of Science at the Dept. of Philosophy, Communication and Performing Arts at University of RomaTre. She is co-author of: Web Dragons (2007 Morgan Kaufmann), The Digital Humanist a critical inquiry (2015, Punctum Books). Co-editor of: Aesthetic and politics of the online self (2021, Routledge). Her most recent solo book in Italian is: Big Data e Algoritmi (2021,Carocci). Her work focuses on History and Philosophy of Technology and on Politics and Ethics of Artificial Intelligence. 
 

@@ -24,7 +24,7 @@ Rights: CC BY-NC 4.0
 
 # Colophon
 
-INC Theory on Demand \#52<br/>
+INC Theory on Demand \#50<br/>
 
 **Resisting Data Colonialism – A Practical Intervention**
 
@@ -40,7 +40,13 @@ Pamela Ramírez Martínez, Anita Say Chan, Joana Varón, Chamee Yang
 **Production:** Agnieszka Antkowiak and Erica Gargaglione<br/>
 
 Published by the Institute of Network Cultures, Amsterdam, 2023<br/>
-ISBN XXXX<br/>
+ISBN 9789083328263<br/>
+
+Order a copy or download this publication for free at:
+www.networkcultures.org/publications <br/>
+
+This publication is licensed under the Creative Commons Attribution NonCommerical ShareAlike 4.0 Unported (CC BY-NC-SA 4.0). To view a copy of this license, visit
+[www.creativecommons.org/licences/by-nc-sa/4.0./]() <br/>
 
 **Contact:** Institute of Network Cultures\
 Amsterdam University of Applied Sciences (HvA)<br/>
